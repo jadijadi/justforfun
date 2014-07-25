@@ -1,5 +1,4 @@
 
-
 <%- @partial('head') %> 
   
   <div class="row"><div class="row-md-10 top-space-reserver" ></div><div>
@@ -10,29 +9,26 @@
      
     <div class="col-md-8">
 
-      <% totalArticle = 0; thisArticle = 0; %>
+      <% totalArticle = 0; thisArticle = -1; %>
       
       <% for article in @getCollection("html").findAllLive({relativeOutDirPath: "chapters"},[{order:1}]).toJSON(): %>
-        <% totalArticle += 1; %>
-        
+        <% totalArticle += 1; %>        
         <% if article.order == @document.order : %> 
 			<% thisArticle = totalArticle; %>
-        <% end %>
-        
+        <% end %>        
         <% if article.order < @document.order : %> 
           <% @previous_title = article.title %>
           <% @previous_url = article.url %>
-        <% end %>
-       
+        <% end %>       
         <% if article.order > @document.order && !@passed : %> 
           <% @next_title = article.title %>
           <% @next_url = article.url %>
           <% @passed = 1 %> 
-        <% end %>
-        
+        <% end %>        
       <% end %>
 
-	  <% percentArticle = (thisArticle / totalArticle)*100; %>
+<% percentArticle = (thisArticle / totalArticle)*100; %>
+
 
 <div class="row">
   <div class="col-md-6 prevchapter" ><% if @previous_title : %>&#9658<a href="<%= @previous_url %>" class="btn btn-default">
@@ -44,19 +40,22 @@
 </div>
 
 
+<% if thisArticle > -1 : %>
 <div class="progress">
         <div class="progress-bar" role="progressbar" aria-valuenow="<%= thisArticle %>" aria-valuemin="0" aria-valuemax="<%= totalArticle %>" style="width: <%= percentArticle %>%;"><span class="sr-only"><%= percentArticle %>% Complete</span></div>
-</div>      
+</div>  
+<% end %>    
 
 <h1 class="articletitle"><%- @document.title %></h1>		
      
       
 <%- @content %>
 
-
+<% if thisArticle > -1 : %>
 <div class="progress" style="margin-bottom: 0;">
         <div class="progress-bar" role="progressbar" aria-valuenow="<%= thisArticle %>" aria-valuemin="0" aria-valuemax="<%= totalArticle %>" style="width: <%= percentArticle %>%;"><span class="sr-only"><%= percentArticle %>% Complete</span></div>
 </div>      
+<% end %>
 <div class="row">
   <div class="col-md-6 prevchapter" ><% if @previous_title : %>&#9658<a href="<%= @previous_url %>" class="btn btn-default">
 		<%= @previous_title %></a><% end %>      

@@ -49,3 +49,24 @@ p {
 .prevchapter {
 	text-align: right;
 }
+
+.alignleft {
+	text-align: left;
+}
+
+.inside {
+	margin-right: 10%;
+}
+
+
+.journal {
+	font-style: italic;
+}
+
+.email {
+	margin-right: 48px;
+	margin-left: 48px;
+	border: 2px dashed;
+    	padding: 12px;
+	background: #eee;
+}

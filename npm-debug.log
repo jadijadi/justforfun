@@ -1,0 +1,883 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'docpad-plugin-robotskirt@2',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.29
+4 warn package.json no-skeleton.docpad@0.1.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'docpad-plugin-robotskirt@2', null ]
+7 verbose cache add name=undefined spec="docpad-plugin-robotskirt@2" args=["docpad-plugin-robotskirt@2",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'docpad-plugin-robotskirt@2',
+8 verbose parsed url   path: 'docpad-plugin-robotskirt@2',
+8 verbose parsed url   href: 'docpad-plugin-robotskirt@2' }
+9 verbose cache add name="docpad-plugin-robotskirt" spec="2" args=["docpad-plugin-robotskirt","2"]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '2',
+10 verbose parsed url   path: '2',
+10 verbose parsed url   href: '2' }
+11 verbose addNamed [ 'docpad-plugin-robotskirt', '2' ]
+12 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+13 silly lockFile 446a065d-docpad-plugin-robotskirt-2 docpad-plugin-robotskirt@2
+14 verbose lock docpad-plugin-robotskirt@2 /home/jadi/.npm/446a065d-docpad-plugin-robotskirt-2.lock
+15 silly addNameRange { name: 'docpad-plugin-robotskirt',
+15 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+15 silly addNameRange   hasData: false }
+16 verbose request where is /docpad-plugin-robotskirt
+17 verbose request registry http://registry.npmjs.org/
+18 verbose request id b6c7dd9b848ccc06
+19 verbose url raw /docpad-plugin-robotskirt
+20 verbose url resolving [ 'http://registry.npmjs.org/', './docpad-plugin-robotskirt' ]
+21 verbose url resolved http://registry.npmjs.org/docpad-plugin-robotskirt
+22 verbose request where is http://registry.npmjs.org/docpad-plugin-robotskirt
+23 info trying registry request attempt 1 at 19:31:03
+24 http GET http://registry.npmjs.org/docpad-plugin-robotskirt
+25 http 200 http://registry.npmjs.org/docpad-plugin-robotskirt
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"9ZTH4Y9J88NMYV9PUVDUV6OZA"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '8314',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Fri, 25 Jul 2014 15:01:04 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-fra1229-FRA',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1406300464.426005,VS0,VE443',
+26 silly registry.get     vary: 'Accept' } ]
+27 silly addNameRange number 2 { name: 'docpad-plugin-robotskirt',
+27 silly addNameRange   range: '>=2.0.0-0 <3.0.0-0',
+27 silly addNameRange   hasData: true }
+28 silly addNameRange versions [ 'docpad-plugin-robotskirt', [ '2.0.0', '2.0.1', '2.0.3' ] ]
+29 verbose addNamed [ 'docpad-plugin-robotskirt', '2.0.3' ]
+30 verbose addNamed [ '2.0.3', '2.0.3' ]
+31 silly lockFile 58a5fd0d-docpad-plugin-robotskirt-2-0-3 docpad-plugin-robotskirt@2.0.3
+32 verbose lock docpad-plugin-robotskirt@2.0.3 /home/jadi/.npm/58a5fd0d-docpad-plugin-robotskirt-2-0-3.lock
+33 silly lockFile a6fdb38d-cpad-plugin-robotskirt-2-0-3-tgz http://registry.npmjs.org/docpad-plugin-robotskirt/-/docpad-plugin-robotskirt-2.0.3.tgz
+34 verbose lock http://registry.npmjs.org/docpad-plugin-robotskirt/-/docpad-plugin-robotskirt-2.0.3.tgz /home/jadi/.npm/a6fdb38d-cpad-plugin-robotskirt-2-0-3-tgz.lock
+35 verbose addRemoteTarball [ 'http://registry.npmjs.org/docpad-plugin-robotskirt/-/docpad-plugin-robotskirt-2.0.3.tgz',
+35 verbose addRemoteTarball   '6443d63e180b7ce78cce82a3ca90a8fd1540a4d8' ]
+36 info retry fetch attempt 1 at 19:31:04
+37 verbose fetch to= /tmp/npm-7676-JhitCS14/registry.npmjs.org/docpad-plugin-robotskirt/-/docpad-plugin-robotskirt-2.0.3.tgz
+38 http GET http://registry.npmjs.org/docpad-plugin-robotskirt/-/docpad-plugin-robotskirt-2.0.3.tgz
+39 http 200 http://registry.npmjs.org/docpad-plugin-robotskirt/-/docpad-plugin-robotskirt-2.0.3.tgz
+40 silly lockFile a6fdb38d-cpad-plugin-robotskirt-2-0-3-tgz http://registry.npmjs.org/docpad-plugin-robotskirt/-/docpad-plugin-robotskirt-2.0.3.tgz
+41 silly lockFile a6fdb38d-cpad-plugin-robotskirt-2-0-3-tgz http://registry.npmjs.org/docpad-plugin-robotskirt/-/docpad-plugin-robotskirt-2.0.3.tgz
+42 silly lockFile 58a5fd0d-docpad-plugin-robotskirt-2-0-3 docpad-plugin-robotskirt@2.0.3
+43 silly lockFile 58a5fd0d-docpad-plugin-robotskirt-2-0-3 docpad-plugin-robotskirt@2.0.3
+44 silly lockFile 446a065d-docpad-plugin-robotskirt-2 docpad-plugin-robotskirt@2
+45 silly lockFile 446a065d-docpad-plugin-robotskirt-2 docpad-plugin-robotskirt@2
+46 silly resolved [ { name: 'docpad-plugin-robotskirt',
+46 silly resolved     version: '2.0.3',
+46 silly resolved     description: 'Markdown rendering for DocPad, using Robotskirt (sundown)',
+46 silly resolved     homepage: 'http://docpad.org/plugin/robotskirt',
+46 silly resolved     keywords:
+46 silly resolved      [ 'docpad',
+46 silly resolved        'docpad-plugin',
+46 silly resolved        'markup',
+46 silly resolved        'markdown',
+46 silly resolved        'sundown',
+46 silly resolved        'robotskirt' ],
+46 silly resolved     author:
+46 silly resolved      { name: 'Bevry Pty Ltd',
+46 silly resolved        email: 'us@bevry.me',
+46 silly resolved        url: 'http://bevry.me' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     contributors: [ [Object], [Object] ],
+46 silly resolved     bugs: { url: 'http://docpad.org/plugin/robotskirt/issues' },
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'http://github.com/docpad/docpad-plugin-robotskirt.git' },
+46 silly resolved     engines: { node: '>=0.4', docpad: '6.x' },
+46 silly resolved     dependencies: { robotskirt: '~2.7.1' },
+46 silly resolved     devDependencies: { 'coffee-script': '~1.4.0' },
+46 silly resolved     main: './out/robotskirt.plugin.js',
+46 silly resolved     scripts: { test: 'node ./out/robotskirt.test.js' },
+46 silly resolved     _id: 'docpad-plugin-robotskirt@2.0.3',
+46 silly resolved     dist:
+46 silly resolved      { shasum: '6443d63e180b7ce78cce82a3ca90a8fd1540a4d8',
+46 silly resolved        tarball: 'http://registry.npmjs.org/docpad-plugin-robotskirt/-/docpad-plugin-robotskirt-2.0.3.tgz' },
+46 silly resolved     _from: 'docpad-plugin-robotskirt@2',
+46 silly resolved     _npmVersion: '1.2.2',
+46 silly resolved     _npmUser: { name: 'balupton', email: 'b@lupton.cc' },
+46 silly resolved     directories: {},
+46 silly resolved     _shasum: '6443d63e180b7ce78cce82a3ca90a8fd1540a4d8',
+46 silly resolved     _resolved: 'http://registry.npmjs.org/docpad-plugin-robotskirt/-/docpad-plugin-robotskirt-2.0.3.tgz' } ]
+47 info install docpad-plugin-robotskirt@2.0.3 into /home/jadi/w/jff/justforfun
+48 info installOne docpad-plugin-robotskirt@2.0.3
+49 verbose node_modules/docpad-plugin-robotskirt unbuild
+50 verbose tar unpack /home/jadi/.npm/docpad-plugin-robotskirt/2.0.3/package.tgz
+51 silly lockFile 3198a46c-modules-docpad-plugin-robotskirt tar:///home/jadi/w/jff/justforfun/node_modules/docpad-plugin-robotskirt
+52 verbose lock tar:///home/jadi/w/jff/justforfun/node_modules/docpad-plugin-robotskirt /home/jadi/.npm/3198a46c-modules-docpad-plugin-robotskirt.lock
+53 silly lockFile 268b8eee-gin-robotskirt-2-0-3-package-tgz tar:///home/jadi/.npm/docpad-plugin-robotskirt/2.0.3/package.tgz
+54 verbose lock tar:///home/jadi/.npm/docpad-plugin-robotskirt/2.0.3/package.tgz /home/jadi/.npm/268b8eee-gin-robotskirt-2-0-3-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry .npmignore
+58 silly gunzTarPerm extractEntry README.md
+59 silly gunzTarPerm extractEntry out/robotskirt.plugin.js
+60 silly lockFile 3198a46c-modules-docpad-plugin-robotskirt tar:///home/jadi/w/jff/justforfun/node_modules/docpad-plugin-robotskirt
+61 silly lockFile 3198a46c-modules-docpad-plugin-robotskirt tar:///home/jadi/w/jff/justforfun/node_modules/docpad-plugin-robotskirt
+62 silly lockFile 268b8eee-gin-robotskirt-2-0-3-package-tgz tar:///home/jadi/.npm/docpad-plugin-robotskirt/2.0.3/package.tgz
+63 silly lockFile 268b8eee-gin-robotskirt-2-0-3-package-tgz tar:///home/jadi/.npm/docpad-plugin-robotskirt/2.0.3/package.tgz
+64 info preinstall docpad-plugin-robotskirt@2.0.3
+65 verbose readDependencies using package.json deps
+66 verbose readDependencies using package.json deps
+67 verbose cache add [ 'robotskirt@~2.7.1', null ]
+68 verbose cache add name=undefined spec="robotskirt@~2.7.1" args=["robotskirt@~2.7.1",null]
+69 verbose parsed url { protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: 'robotskirt@~2.7.1',
+69 verbose parsed url   path: 'robotskirt@~2.7.1',
+69 verbose parsed url   href: 'robotskirt@~2.7.1' }
+70 verbose cache add name="robotskirt" spec="~2.7.1" args=["robotskirt","~2.7.1"]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: '~2.7.1',
+71 verbose parsed url   path: '~2.7.1',
+71 verbose parsed url   href: '~2.7.1' }
+72 verbose addNamed [ 'robotskirt', '~2.7.1' ]
+73 verbose addNamed [ null, '>=2.7.1-0 <2.8.0-0' ]
+74 silly lockFile c236d50a-robotskirt-2-7-1 robotskirt@~2.7.1
+75 verbose lock robotskirt@~2.7.1 /home/jadi/.npm/c236d50a-robotskirt-2-7-1.lock
+76 silly addNameRange { name: 'robotskirt',
+76 silly addNameRange   range: '>=2.7.1-0 <2.8.0-0',
+76 silly addNameRange   hasData: false }
+77 verbose request where is /robotskirt
+78 verbose request registry http://registry.npmjs.org/
+79 verbose url raw /robotskirt
+80 verbose url resolving [ 'http://registry.npmjs.org/', './robotskirt' ]
+81 verbose url resolved http://registry.npmjs.org/robotskirt
+82 verbose request where is http://registry.npmjs.org/robotskirt
+83 info trying registry request attempt 1 at 19:31:05
+84 http GET http://registry.npmjs.org/robotskirt
+85 http 200 http://registry.npmjs.org/robotskirt
+86 silly registry.get cb [ 200,
+86 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+86 silly registry.get     etag: '"1IO44SV6QWT218Z4CPW4R0OHR"',
+86 silly registry.get     'content-type': 'application/json',
+86 silly registry.get     'cache-control': 'max-age=60',
+86 silly registry.get     'content-length': '113660',
+86 silly registry.get     'accept-ranges': 'bytes',
+86 silly registry.get     date: 'Fri, 25 Jul 2014 15:01:06 GMT',
+86 silly registry.get     via: '1.1 varnish',
+86 silly registry.get     age: '5237',
+86 silly registry.get     connection: 'keep-alive',
+86 silly registry.get     'x-served-by': 'cache-fra1235-FRA',
+86 silly registry.get     'x-cache': 'HIT',
+86 silly registry.get     'x-cache-hits': '1',
+86 silly registry.get     'x-timer': 'S1406300466.065626,VS0,VE176',
+86 silly registry.get     vary: 'Accept' } ]
+87 silly addNameRange number 2 { name: 'robotskirt',
+87 silly addNameRange   range: '>=2.7.1-0 <2.8.0-0',
+87 silly addNameRange   hasData: true }
+88 silly addNameRange versions [ 'robotskirt',
+88 silly addNameRange   [ '0.1.0',
+88 silly addNameRange     '0.2.0',
+88 silly addNameRange     '0.2.1',
+88 silly addNameRange     '0.2.2',
+88 silly addNameRange     '0.2.3',
+88 silly addNameRange     '0.2.4',
+88 silly addNameRange     '0.2.5',
+88 silly addNameRange     '1.0.0',
+88 silly addNameRange     '2.3.2',
+88 silly addNameRange     '2.4.0',
+88 silly addNameRange     '2.5.0',
+88 silly addNameRange     '2.5.1',
+88 silly addNameRange     '2.5.2',
+88 silly addNameRange     '2.5.3',
+88 silly addNameRange     '2.5.4',
+88 silly addNameRange     '2.6.0',
+88 silly addNameRange     '2.6.1',
+88 silly addNameRange     '2.7.0',
+88 silly addNameRange     '2.7.1' ] ]
+89 verbose addNamed [ 'robotskirt', '2.7.1' ]
+90 verbose addNamed [ '2.7.1', '2.7.1' ]
+91 silly lockFile 7b18e7ce-robotskirt-2-7-1 robotskirt@2.7.1
+92 verbose lock robotskirt@2.7.1 /home/jadi/.npm/7b18e7ce-robotskirt-2-7-1.lock
+93 silly lockFile 641f375b--robotskirt-robotskirt-2-7-1-tgz http://registry.npmjs.org/robotskirt/-/robotskirt-2.7.1.tgz
+94 verbose lock http://registry.npmjs.org/robotskirt/-/robotskirt-2.7.1.tgz /home/jadi/.npm/641f375b--robotskirt-robotskirt-2-7-1-tgz.lock
+95 verbose addRemoteTarball [ 'http://registry.npmjs.org/robotskirt/-/robotskirt-2.7.1.tgz',
+95 verbose addRemoteTarball   'a54962a5ab81239628f0118a752ac5359c6eba30' ]
+96 info retry fetch attempt 1 at 19:31:07
+97 verbose fetch to= /tmp/npm-7676-JhitCS14/registry.npmjs.org/robotskirt/-/robotskirt-2.7.1.tgz
+98 http GET http://registry.npmjs.org/robotskirt/-/robotskirt-2.7.1.tgz
+99 http 200 http://registry.npmjs.org/robotskirt/-/robotskirt-2.7.1.tgz
+100 silly lockFile 641f375b--robotskirt-robotskirt-2-7-1-tgz http://registry.npmjs.org/robotskirt/-/robotskirt-2.7.1.tgz
+101 silly lockFile 641f375b--robotskirt-robotskirt-2-7-1-tgz http://registry.npmjs.org/robotskirt/-/robotskirt-2.7.1.tgz
+102 silly lockFile 7b18e7ce-robotskirt-2-7-1 robotskirt@2.7.1
+103 silly lockFile 7b18e7ce-robotskirt-2-7-1 robotskirt@2.7.1
+104 silly lockFile c236d50a-robotskirt-2-7-1 robotskirt@~2.7.1
+105 silly lockFile c236d50a-robotskirt-2-7-1 robotskirt@~2.7.1
+106 silly resolved [ { name: 'robotskirt',
+106 silly resolved     description: 'A node wrapper for the awesome C markdown parsing library, sundown.',
+106 silly resolved     keywords: [ 'sundown', 'upskirt', 'robot', 'markdown', 'mkd', 'md' ],
+106 silly resolved     version: '2.7.1',
+106 silly resolved     homepage: 'http://benmills.org/robotskirt',
+106 silly resolved     author: { name: 'Ben Mills', email: 'ben@bmdev.org' },
+106 silly resolved     maintainers: [ [Object], [Object] ],
+106 silly resolved     contributors:
+106 silly resolved      [ [Object],
+106 silly resolved        [Object],
+106 silly resolved        [Object],
+106 silly resolved        [Object],
+106 silly resolved        [Object],
+106 silly resolved        [Object],
+106 silly resolved        [Object],
+106 silly resolved        [Object] ],
+106 silly resolved     main: './build/Release/robotskirt',
+106 silly resolved     man: [ 'man/robotskirt.1' ],
+106 silly resolved     engines: { node: '>= 0.6' },
+106 silly resolved     scripts: { install: 'node-gyp rebuild' },
+106 silly resolved     directories:
+106 silly resolved      { bin: './bin',
+106 silly resolved        src: './src',
+106 silly resolved        man: './man',
+106 silly resolved        doc: './doc',
+106 silly resolved        example: './examples' },
+106 silly resolved     repository:
+106 silly resolved      { type: 'git',
+106 silly resolved        url: 'https://github.com/benmills/robotskirt.git' },
+106 silly resolved     bugs: { url: 'https://github.com/benmills/robotskirt/issues' },
+106 silly resolved     licenses: [ [Object] ],
+106 silly resolved     gypfile: true,
+106 silly resolved     bin: { robotskirt: 'bin/robotskirt' },
+106 silly resolved     readme: '# Robotskirt\n\nRobotskirt is a [Node.JS](http://nodejs.org) wrapper for the [Sundown](https://github.com/vmg/sundown)\nlibrary.\n\nIt was inspired by the Redcarpet gem [released by GitHub](https://github.com/blog/832-rolling-out-the-redcarpet) (the bindings to [Ruby](http://www.ruby-lang.org)).  \nWith the arrival of version 2 after much work, Robotskirt now mirrors every feature of Redcarpet, see below.  \nIt even has [additional features](#other-utilities)!\n\nFull documentation can be found under the `doc` folder.  \nRobotskirt is distributed under the **MIT license**, see `LICENSE`.\n\n## Performance\n\nThanks to Sundown, Robotskirt is able to render markdown many times faster than other Markdown libraries.  \nWith v2, efforts have been put to make it even lighter.\n\nSundown is well known for its **security**, **speed** and **flexibility**.  \nRobotskirt benefits from these features and tries to make the wrapping layer as thin as possible.\n\nRobotskirt includes a small script to benchmark it against other popular markdown libraries.  \nIt runs the official Markdown test suite 1000 times with each item.\n\nResults on a Thinkpad T400 running Ubuntu 12.04 and\nNode 0.8.8 (currently the latest stable version):\n\n```bash\n$ node benchmark --bench\n[1] robotskirt (reuse all) completed in 1354ms.\n[2] robotskirt (convenience, reuse all) completed in 1353ms.\n[3] robotskirt (new renderer and parser) completed in 3816ms.\n[4] robotskirt (convenience, new parser) completed in 1534ms.\n[5] marked completed in 3842ms.\n[6] discount completed in 6025ms.\n6 targets benchmarked successfully.\n```\n\n## Install\n\nThe best way to install Robotskirt is by using [NPM](https://github.com/isaacs/npm).  \nIf you want to install it globally, remember to use `sudo` and `-g`.\n\n```bash\nnpm install robotskirt\n```\n\n**Important:** you *don\'t need* to have Sundown installed: Robotskirt comes bundled  \nwith a specific Sundown version. Just install Robotskirt as any other module.\n\nStarting with `v2.7`, Robotskirt uses the preferred [Node-GYP](https://github.com/TooTallNate/node-gyp) to compile.\n\n## Getting started\n\nCurrently there are two ways of using Robotskirt:\n[normal](#the-normal-way) and [convenience](#the-convenience-way).  \nWe recommend you to learn both (hey, it\'s just two classes!) and see the [examples](#examples).\n\n## The Normal Way\n\nTo parse Markdown, we first need a **renderer**. It takes the parsed Markdown,  \nand produces the final output (can be HTML, XHTML,\n[ANSI](https://github.com/benmills/robotskirt/blob/master/examples/ansi-rend.js), plain text, ...).\n\nOn most cases you will use Sundown\'s (X)HTML renderer:\n\n```javascript\nvar rs = require(\'robotskirt\');\nvar renderer = new rs.HtmlRenderer();\n```\n\nThen, you make a **parser** that uses your renderer:\n\n```javascript\nvar parser = new rs.Markdown(renderer);\n```\n\nThat\'s it! You can now start rendering your markdown:\n\n```javascript\nparser.render(\'Hey, *this* is `code` with ÚŦF châracters!\')\n// \'<p>Hey, <em>this</em> is <code>code</code> with ÚŦF châracters!</p>\\n\'\n```\n\n**Always reuse yor parsers/renderers!** As you can see in the [benchmark](#performance),  \nmaking and using the same pair to render everything saves a _lot_ of time.  \nIf you can\'t reuse them (for example, because the flags are supplied by the user),  \nconsider using [the convenience way](#the-convenience-way).\n\nOK. Want to customize the output a bit? Keep reading.\n\n### Using markdown extensions\n\nJust using `new Markdown(renderer)` will parse **pure markdown**.\nHowever, you can have it  \nunderstand special _extensions_ such as fenced code blocks,\nstrikethrough, tables and more!\n\nFor example, the following will enable tables and autolinking:\n\n```javascript\nvar parser = new rs.Markdown(renderer, [rs.EXT_TABLES, rs.EXT_AUTOLINK]);\n```\n\nYou can see the full list of extensions in the docs.\n\n### HTML rendering flags\n\nJust as with extensions, you can pass certain flags to the HTML renderer.\n\nFor example, the following will use strict XHTML\nand skip all the `<image>` tags:\n\n```javascript\nvar renderer = new rs.HtmlRenderer([rs.HTML_USE_XHTML, rs.HTML_SKIP_IMAGES]);\n```\n\nYou can see the full list of HTML flags in the docs.\n\n### UTF handling\n\nSundown is fully UTF-8 aware, both when handling and rendering.  \nRobotskirt will take care of the encoding and decoding tasks for you.\n\n### Custom renderers!\n\nA renderer is just a set of functions.  \nEach time the parser finds a piece of Markdown it\'ll call the appropiate function in the renderer.  \nIf the function is not set (`undefined`), the Markdown will be skipped or copied untouched.\n\nSome use cases of custom renderers:\n\n#### Highlighting code blocks\n\n```javascript\nvar renderer = new rs.HtmlRenderer();\nrenderer.blockcode = function (code, language) {\n  if (language === undefined) {\n    //No language was provided, don\'t highlight\n    return \'<pre>\' + escapeHtml(code) + \'</pre>\';\n  }\n  return pygments.highlight(code, {"lang": language, "indent": 2});\n};\n```\n\nYou can see the full list of renderer functions in the docs.\n\n#### Renderer from scratch\n\nIf you don\'t feel comfortable extending the `HtmlRenderer` class,  \nyou can build a renderer from scratch by extending the base class: `Renderer`.  \nAll renderers inherit from this class. It contains all functions set to `undefined`.\n\n## The Convenience Way\n\nWhen you don\'t need custom renderers at all, you can just write:\n\n```javascript\nvar rs = require(\'robotskirt\');\nvar parser = rs.Markdown.std();\nparser.render(...);\n```\n\nThat\'ll build a renderer/parser pair for you.  \nIt\'s **faster than building them manually**, because it happens natively.\n\nYou can pass **extension** and **HTML** flags to it, respectively:\n\n```javascript\nvar parser = rs.Markdown.std([rs.EXT_TABLES, rs.EXT_AUTOLINK],\n                             [rs.HTML_USE_XHTML, rs.HTML_SKIP_IMAGES]);\nparser.render(\'This becomes http://autolink.ed in XHTML!\');\n// \'<p>This becomes <a href="http://autolink.ed">http://autolink.ed</a> in XHTML!</p>\\n\'\n```\n\nKeep in mind that **no other types of renderer can be chosen**,  \nand **you don\'t have access to the HTML renderer used**.\n\n## Examples\n\nTODO\n\n## Other utilities\n\nRobotskirt includes some useful utilities. Code speaks by itself:\n\n##### [Houdini](https://github.com/vmg/houdini), the escapist\n\n``` javascript\n> var rs = require(\'robotskirt\')\n> rs.houdini.escapeHTML(\'<b>Some code to escape.</b> <a title="Click me!">Me & you.</a>\')\n\'&lt;b&gt;Some code to escape.&lt;&#47;b&gt; &lt;a title=&quot;Click me!&quot;&gt;Me &amp; you.&lt;&#47;a&gt;\'\n> rs.houdini.unescapeURL(\'Include+5%25+me%2Bin+a-query%3F+W%C3%ADth%C3%99TF%21\')\n\'Include 5% me in a-query? WíthÙTF!\'\n```\n\n##### [SmartyPants](http://daringfireball.net/projects/smartypants)\n\nOften used in conjunction with Markdown.  \nIt makes "smart" punctuation. See more on [its homepage](http://daringfireball.net/projects/smartypants).\n\n```javascript\n> rs.smartypantsHtml(\'And I said ---to him--- "no worries"...\');\n\'And I said &mdash;to him&mdash; &ldquo;no worries&rdquo;&hellip;\'\n```\n\nSundown implements SmartyPants with the same\nspeed and security as usual.\n\n##### Sundown\'s Autolink-er\n\n```javascript\n//COMING SOON!\n```\n\n##### Version stuff\n\n``` javascript\n> rs.versions.sundown\n<Version 1.16.0>\n> rs.versions.robotskirt.toString() //String formatted version\n\'2.5.1\'\n> console.log(\'Sundown is at %s. Robotskirt is at %s\',\n... rs.versions.sundown, rs.versions.robotskirt);\nSundown is at 1.16.0. Robotskirt is at 2.5.1.\n> rs.versions.sundown.minor\n16\n> rs.versions.robotskirt instanceof rs.Version\ntrue\n```\n\n',
+106 silly resolved     _id: 'robotskirt@2.7.1',
+106 silly resolved     dist:
+106 silly resolved      { shasum: 'a54962a5ab81239628f0118a752ac5359c6eba30',
+106 silly resolved        tarball: 'http://registry.npmjs.org/robotskirt/-/robotskirt-2.7.1.tgz' },
+106 silly resolved     _npmVersion: '1.1.59',
+106 silly resolved     _npmUser: { name: 'jmendeth', email: 'jmendeth@gmail.com' },
+106 silly resolved     _shasum: 'a54962a5ab81239628f0118a752ac5359c6eba30',
+106 silly resolved     _from: 'robotskirt@~2.7.1',
+106 silly resolved     _resolved: 'http://registry.npmjs.org/robotskirt/-/robotskirt-2.7.1.tgz' } ]
+107 info install robotskirt@2.7.1 into /home/jadi/w/jff/justforfun/node_modules/docpad-plugin-robotskirt
+108 info installOne robotskirt@2.7.1
+109 verbose node_modules/docpad-plugin-robotskirt/node_modules/robotskirt unbuild
+110 verbose tar unpack /home/jadi/.npm/robotskirt/2.7.1/package.tgz
+111 silly lockFile 3cfdbdf8-botskirt-node-modules-robotskirt tar:///home/jadi/w/jff/justforfun/node_modules/docpad-plugin-robotskirt/node_modules/robotskirt
+112 verbose lock tar:///home/jadi/w/jff/justforfun/node_modules/docpad-plugin-robotskirt/node_modules/robotskirt /home/jadi/.npm/3cfdbdf8-botskirt-node-modules-robotskirt.lock
+113 silly lockFile 4a0111fd-npm-robotskirt-2-7-1-package-tgz tar:///home/jadi/.npm/robotskirt/2.7.1/package.tgz
+114 verbose lock tar:///home/jadi/.npm/robotskirt/2.7.1/package.tgz /home/jadi/.npm/4a0111fd-npm-robotskirt-2-7-1-package-tgz.lock
+115 silly gunzTarPerm modes [ '755', '644' ]
+116 silly gunzTarPerm extractEntry package.json
+117 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+118 silly gunzTarPerm extractEntry .npmignore
+119 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+120 silly gunzTarPerm extractEntry README.md
+121 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+122 silly gunzTarPerm extractEntry LICENSE
+123 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+124 silly gunzTarPerm extractEntry index.js
+125 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+126 silly gunzTarPerm extractEntry man/robotskirt.1
+127 silly gunzTarPerm modified mode [ 'man/robotskirt.1', 438, 420 ]
+128 silly gunzTarPerm extractEntry .gitmodules
+129 silly gunzTarPerm modified mode [ '.gitmodules', 438, 420 ]
+130 silly gunzTarPerm extractEntry benchmark/package.json
+131 silly gunzTarPerm modified mode [ 'benchmark/package.json', 438, 420 ]
+132 silly gunzTarPerm extractEntry benchmark/README
+133 silly gunzTarPerm modified mode [ 'benchmark/README', 438, 420 ]
+134 silly gunzTarPerm extractEntry benchmark/fix.js
+135 silly gunzTarPerm modified mode [ 'benchmark/fix.js', 438, 420 ]
+136 silly gunzTarPerm extractEntry benchmark/index.js
+137 silly gunzTarPerm modified mode [ 'benchmark/index.js', 438, 420 ]
+138 silly gunzTarPerm extractEntry benchmark/tests/code_blocks.html
+139 silly gunzTarPerm modified mode [ 'benchmark/tests/code_blocks.html', 438, 420 ]
+140 silly gunzTarPerm extractEntry benchmark/tests/literal_quotes_in_titles.text
+141 silly gunzTarPerm modified mode [ 'benchmark/tests/literal_quotes_in_titles.text', 438, 420 ]
+142 silly gunzTarPerm extractEntry benchmark/tests/loose_lists.text
+143 silly gunzTarPerm modified mode [ 'benchmark/tests/loose_lists.text', 438, 420 ]
+144 silly gunzTarPerm extractEntry benchmark/tests/links_inline_style.text
+145 silly gunzTarPerm modified mode [ 'benchmark/tests/links_inline_style.text', 438, 420 ]
+146 silly gunzTarPerm extractEntry benchmark/tests/inline_html_advanced.html
+147 silly gunzTarPerm modified mode [ 'benchmark/tests/inline_html_advanced.html', 438, 420 ]
+148 silly gunzTarPerm extractEntry benchmark/tests/blockquote_list_item.text
+149 silly gunzTarPerm modified mode [ 'benchmark/tests/blockquote_list_item.text', 438, 420 ]
+150 silly gunzTarPerm extractEntry benchmark/tests/inline_html_simple.html
+151 silly gunzTarPerm modified mode [ 'benchmark/tests/inline_html_simple.html', 438, 420 ]
+152 silly gunzTarPerm extractEntry benchmark/tests/gfm_em.text
+153 silly gunzTarPerm modified mode [ 'benchmark/tests/gfm_em.text', 438, 420 ]
+154 silly gunzTarPerm extractEntry benchmark/tests/tabs.text
+155 silly gunzTarPerm modified mode [ 'benchmark/tests/tabs.text', 438, 420 ]
+156 silly gunzTarPerm extractEntry benchmark/tests/ref_paren.html
+157 silly gunzTarPerm modified mode [ 'benchmark/tests/ref_paren.html', 438, 420 ]
+158 silly gunzTarPerm extractEntry benchmark/tests/tabs.html
+159 silly gunzTarPerm modified mode [ 'benchmark/tests/tabs.html', 438, 420 ]
+160 silly gunzTarPerm extractEntry benchmark/tests/tidyness.text
+161 silly gunzTarPerm modified mode [ 'benchmark/tests/tidyness.text', 438, 420 ]
+162 silly gunzTarPerm extractEntry benchmark/tests/gfm_em.html
+163 silly gunzTarPerm modified mode [ 'benchmark/tests/gfm_em.html', 438, 420 ]
+164 silly gunzTarPerm extractEntry benchmark/tests/links_reference_style.text
+165 silly gunzTarPerm modified mode [ 'benchmark/tests/links_reference_style.text', 438, 420 ]
+166 silly gunzTarPerm extractEntry benchmark/tests/links_reference_style.html
+167 silly gunzTarPerm modified mode [ 'benchmark/tests/links_reference_style.html', 438, 420 ]
+168 silly gunzTarPerm extractEntry benchmark/tests/hard_wrapped_paragraphs_with_list_like_lines.html
+169 silly gunzTarPerm modified mode [ 'benchmark/tests/hard_wrapped_paragraphs_with_list_like_lines.html',
+169 silly gunzTarPerm   438,
+169 silly gunzTarPerm   420 ]
+170 silly gunzTarPerm extractEntry benchmark/tests/gfm_links.html
+171 silly gunzTarPerm modified mode [ 'benchmark/tests/gfm_links.html', 438, 420 ]
+172 silly gunzTarPerm extractEntry benchmark/tests/blockquotes_with_code_blocks.text
+173 silly gunzTarPerm modified mode [ 'benchmark/tests/blockquotes_with_code_blocks.text', 438, 420 ]
+174 silly gunzTarPerm extractEntry benchmark/tests/ref_paren.text
+175 silly gunzTarPerm modified mode [ 'benchmark/tests/ref_paren.text', 438, 420 ]
+176 silly gunzTarPerm extractEntry benchmark/tests/main.text
+177 silly gunzTarPerm modified mode [ 'benchmark/tests/main.text', 438, 420 ]
+178 silly gunzTarPerm extractEntry benchmark/tests/list_item_text.text
+179 silly gunzTarPerm modified mode [ 'benchmark/tests/list_item_text.text', 438, 420 ]
+180 silly gunzTarPerm extractEntry benchmark/tests/gfm_break.html
+181 silly gunzTarPerm modified mode [ 'benchmark/tests/gfm_break.html', 438, 420 ]
+182 silly gunzTarPerm extractEntry benchmark/tests/hard_wrapped_paragraphs_with_list_like_lines.text
+183 silly gunzTarPerm modified mode [ 'benchmark/tests/hard_wrapped_paragraphs_with_list_like_lines.text',
+183 silly gunzTarPerm   438,
+183 silly gunzTarPerm   420 ]
+184 silly gunzTarPerm extractEntry benchmark/tests/nested_code.html
+185 silly gunzTarPerm modified mode [ 'benchmark/tests/nested_code.html', 438, 420 ]
+186 silly gunzTarPerm extractEntry benchmark/tests/gfm_code.text
+187 silly gunzTarPerm modified mode [ 'benchmark/tests/gfm_code.text', 438, 420 ]
+188 silly gunzTarPerm extractEntry benchmark/tests/same_bullet.html
+189 silly gunzTarPerm modified mode [ 'benchmark/tests/same_bullet.html', 438, 420 ]
+190 silly gunzTarPerm extractEntry benchmark/tests/escaped_angles.text
+191 silly gunzTarPerm modified mode [ 'benchmark/tests/escaped_angles.text', 438, 420 ]
+192 silly gunzTarPerm extractEntry benchmark/tests/inline_html_comments.html
+193 silly gunzTarPerm modified mode [ 'benchmark/tests/inline_html_comments.html', 438, 420 ]
+194 silly gunzTarPerm extractEntry benchmark/tests/code_spans.text
+195 silly gunzTarPerm modified mode [ 'benchmark/tests/code_spans.text', 438, 420 ]
+196 silly gunzTarPerm extractEntry benchmark/tests/nested_blockquotes.text
+197 silly gunzTarPerm modified mode [ 'benchmark/tests/nested_blockquotes.text', 438, 420 ]
+198 silly gunzTarPerm extractEntry benchmark/tests/nested_em.text
+199 silly gunzTarPerm modified mode [ 'benchmark/tests/nested_em.text', 438, 420 ]
+200 silly gunzTarPerm extractEntry benchmark/tests/inline_html_simple.text
+201 silly gunzTarPerm modified mode [ 'benchmark/tests/inline_html_simple.text', 438, 420 ]
+202 silly gunzTarPerm extractEntry benchmark/tests/markdown_documentation_syntax.html
+203 silly gunzTarPerm modified mode [ 'benchmark/tests/markdown_documentation_syntax.html',
+203 silly gunzTarPerm   438,
+203 silly gunzTarPerm   420 ]
+204 silly gunzTarPerm extractEntry benchmark/tests/markdown_documentation_syntax.text
+205 silly gunzTarPerm modified mode [ 'benchmark/tests/markdown_documentation_syntax.text',
+205 silly gunzTarPerm   438,
+205 silly gunzTarPerm   420 ]
+206 silly gunzTarPerm extractEntry benchmark/tests/blockquote_list_item.html
+207 silly gunzTarPerm modified mode [ 'benchmark/tests/blockquote_list_item.html', 438, 420 ]
+208 silly gunzTarPerm extractEntry benchmark/tests/auto_links.text
+209 silly gunzTarPerm modified mode [ 'benchmark/tests/auto_links.text', 438, 420 ]
+210 silly gunzTarPerm extractEntry benchmark/tests/nested_em.html
+211 silly gunzTarPerm modified mode [ 'benchmark/tests/nested_em.html', 438, 420 ]
+212 silly gunzTarPerm extractEntry benchmark/tests/code_spans.html
+213 silly gunzTarPerm modified mode [ 'benchmark/tests/code_spans.html', 438, 420 ]
+214 silly gunzTarPerm extractEntry benchmark/tests/ordered_and_unordered_lists.text
+215 silly gunzTarPerm modified mode [ 'benchmark/tests/ordered_and_unordered_lists.text', 438, 420 ]
+216 silly gunzTarPerm extractEntry benchmark/tests/nested_code.text
+217 silly gunzTarPerm modified mode [ 'benchmark/tests/nested_code.text', 438, 420 ]
+218 silly gunzTarPerm extractEntry benchmark/tests/horizontal_rules.html
+219 silly gunzTarPerm modified mode [ 'benchmark/tests/horizontal_rules.html', 438, 420 ]
+220 silly gunzTarPerm extractEntry benchmark/tests/list_item_text.html
+221 silly gunzTarPerm modified mode [ 'benchmark/tests/list_item_text.html', 438, 420 ]
+222 silly gunzTarPerm extractEntry benchmark/tests/gfm_break.text
+223 silly gunzTarPerm modified mode [ 'benchmark/tests/gfm_break.text', 438, 420 ]
+224 silly gunzTarPerm extractEntry benchmark/tests/links_shortcut_references.html
+225 silly gunzTarPerm modified mode [ 'benchmark/tests/links_shortcut_references.html', 438, 420 ]
+226 silly gunzTarPerm extractEntry benchmark/tests/markdown_documentation_basics.html
+227 silly gunzTarPerm modified mode [ 'benchmark/tests/markdown_documentation_basics.html',
+227 silly gunzTarPerm   438,
+227 silly gunzTarPerm   420 ]
+228 silly gunzTarPerm extractEntry benchmark/tests/markdown_documentation_basics.text
+229 silly gunzTarPerm modified mode [ 'benchmark/tests/markdown_documentation_basics.text',
+229 silly gunzTarPerm   438,
+229 silly gunzTarPerm   420 ]
+230 silly gunzTarPerm extractEntry benchmark/tests/gfm_code.html
+231 silly gunzTarPerm modified mode [ 'benchmark/tests/gfm_code.html', 438, 420 ]
+232 silly gunzTarPerm extractEntry benchmark/tests/lazy_blockquotes.html
+233 silly gunzTarPerm modified mode [ 'benchmark/tests/lazy_blockquotes.html', 438, 420 ]
+234 silly gunzTarPerm extractEntry benchmark/tests/ordered_and_unordered_lists.html
+235 silly gunzTarPerm modified mode [ 'benchmark/tests/ordered_and_unordered_lists.html', 438, 420 ]
+236 silly gunzTarPerm extractEntry benchmark/tests/main.html
+237 silly gunzTarPerm modified mode [ 'benchmark/tests/main.html', 438, 420 ]
+238 silly gunzTarPerm extractEntry benchmark/tests/case_insensitive_refs.text
+239 silly gunzTarPerm modified mode [ 'benchmark/tests/case_insensitive_refs.text', 438, 420 ]
+240 silly gunzTarPerm extractEntry benchmark/tests/not_a_link.html
+241 silly gunzTarPerm modified mode [ 'benchmark/tests/not_a_link.html', 438, 420 ]
+242 silly gunzTarPerm extractEntry benchmark/tests/code_blocks.text
+243 silly gunzTarPerm modified mode [ 'benchmark/tests/code_blocks.text', 438, 420 ]
+244 silly gunzTarPerm extractEntry benchmark/tests/strong_and_em_together.text
+245 silly gunzTarPerm modified mode [ 'benchmark/tests/strong_and_em_together.text', 438, 420 ]
+246 silly gunzTarPerm extractEntry benchmark/tests/horizontal_rules.text
+247 silly gunzTarPerm modified mode [ 'benchmark/tests/horizontal_rules.text', 438, 420 ]
+248 silly gunzTarPerm extractEntry benchmark/tests/backslash_escapes.html
+249 silly gunzTarPerm modified mode [ 'benchmark/tests/backslash_escapes.html', 438, 420 ]
+250 silly gunzTarPerm extractEntry benchmark/tests/nested_square_link.html
+251 silly gunzTarPerm modified mode [ 'benchmark/tests/nested_square_link.html', 438, 420 ]
+252 silly gunzTarPerm extractEntry benchmark/tests/not_a_link.text
+253 silly gunzTarPerm modified mode [ 'benchmark/tests/not_a_link.text', 438, 420 ]
+254 silly gunzTarPerm extractEntry benchmark/tests/case_insensitive_refs.html
+255 silly gunzTarPerm modified mode [ 'benchmark/tests/case_insensitive_refs.html', 438, 420 ]
+256 silly gunzTarPerm extractEntry benchmark/tests/escaped_angles.html
+257 silly gunzTarPerm modified mode [ 'benchmark/tests/escaped_angles.html', 438, 420 ]
+258 silly gunzTarPerm extractEntry benchmark/tests/toplevel_paragraphs.text
+259 silly gunzTarPerm modified mode [ 'benchmark/tests/toplevel_paragraphs.text', 438, 420 ]
+260 silly gunzTarPerm extractEntry benchmark/tests/auto_links.html
+261 silly gunzTarPerm modified mode [ 'benchmark/tests/auto_links.html', 438, 420 ]
+262 silly gunzTarPerm extractEntry benchmark/tests/amps_and_angles_encoding.html
+263 silly gunzTarPerm modified mode [ 'benchmark/tests/amps_and_angles_encoding.html', 438, 420 ]
+264 silly gunzTarPerm extractEntry benchmark/tests/tidyness.html
+265 silly gunzTarPerm modified mode [ 'benchmark/tests/tidyness.html', 438, 420 ]
+266 silly gunzTarPerm extractEntry benchmark/tests/lazy_blockquotes.text
+267 silly gunzTarPerm modified mode [ 'benchmark/tests/lazy_blockquotes.text', 438, 420 ]
+268 silly gunzTarPerm extractEntry benchmark/tests/links_shortcut_references.text
+269 silly gunzTarPerm modified mode [ 'benchmark/tests/links_shortcut_references.text', 438, 420 ]
+270 silly gunzTarPerm extractEntry benchmark/tests/same_bullet.text
+271 silly gunzTarPerm modified mode [ 'benchmark/tests/same_bullet.text', 438, 420 ]
+272 silly gunzTarPerm extractEntry benchmark/tests/loose_lists.html
+273 silly gunzTarPerm modified mode [ 'benchmark/tests/loose_lists.html', 438, 420 ]
+274 silly gunzTarPerm extractEntry benchmark/tests/inline_html_advanced.text
+275 silly gunzTarPerm modified mode [ 'benchmark/tests/inline_html_advanced.text', 438, 420 ]
+276 silly gunzTarPerm extractEntry benchmark/tests/strong_and_em_together.html
+277 silly gunzTarPerm modified mode [ 'benchmark/tests/strong_and_em_together.html', 438, 420 ]
+278 silly gunzTarPerm extractEntry benchmark/tests/nested_blockquotes.html
+279 silly gunzTarPerm modified mode [ 'benchmark/tests/nested_blockquotes.html', 438, 420 ]
+280 silly gunzTarPerm extractEntry benchmark/tests/blockquotes_with_code_blocks.html
+281 silly gunzTarPerm modified mode [ 'benchmark/tests/blockquotes_with_code_blocks.html', 438, 420 ]
+282 silly gunzTarPerm extractEntry benchmark/tests/nested_square_link.text
+283 silly gunzTarPerm modified mode [ 'benchmark/tests/nested_square_link.text', 438, 420 ]
+284 silly gunzTarPerm extractEntry benchmark/tests/links_inline_style.html
+285 silly gunzTarPerm modified mode [ 'benchmark/tests/links_inline_style.html', 438, 420 ]
+286 silly gunzTarPerm extractEntry benchmark/tests/backslash_escapes.text
+287 silly gunzTarPerm modified mode [ 'benchmark/tests/backslash_escapes.text', 438, 420 ]
+288 silly gunzTarPerm extractEntry benchmark/tests/toplevel_paragraphs.html
+289 silly gunzTarPerm modified mode [ 'benchmark/tests/toplevel_paragraphs.html', 438, 420 ]
+290 silly gunzTarPerm extractEntry benchmark/tests/literal_quotes_in_titles.html
+291 silly gunzTarPerm modified mode [ 'benchmark/tests/literal_quotes_in_titles.html', 438, 420 ]
+292 silly gunzTarPerm extractEntry benchmark/tests/gfm_links.text
+293 silly gunzTarPerm modified mode [ 'benchmark/tests/gfm_links.text', 438, 420 ]
+294 silly gunzTarPerm extractEntry benchmark/tests/amps_and_angles_encoding.text
+295 silly gunzTarPerm modified mode [ 'benchmark/tests/amps_and_angles_encoding.text', 438, 420 ]
+296 silly gunzTarPerm extractEntry benchmark/tests/inline_html_comments.text
+297 silly gunzTarPerm modified mode [ 'benchmark/tests/inline_html_comments.text', 438, 420 ]
+298 silly gunzTarPerm extractEntry benchmark/fix
+299 silly gunzTarPerm modified mode [ 'benchmark/fix', 511, 493 ]
+300 silly gunzTarPerm extractEntry benchmark/results
+301 silly gunzTarPerm modified mode [ 'benchmark/results', 438, 420 ]
+302 silly gunzTarPerm extractEntry benchmark/new/list_item_text.html
+303 silly gunzTarPerm modified mode [ 'benchmark/new/list_item_text.html', 438, 420 ]
+304 silly gunzTarPerm extractEntry benchmark/new/loose_lists.text
+305 silly gunzTarPerm modified mode [ 'benchmark/new/loose_lists.text', 438, 420 ]
+306 silly gunzTarPerm extractEntry benchmark/new/gfm_em.text
+307 silly gunzTarPerm modified mode [ 'benchmark/new/gfm_em.text', 438, 420 ]
+308 silly gunzTarPerm extractEntry benchmark/new/ref_paren.html
+309 silly gunzTarPerm modified mode [ 'benchmark/new/ref_paren.html', 438, 420 ]
+310 silly gunzTarPerm extractEntry benchmark/new/gfm_em.html
+311 silly gunzTarPerm modified mode [ 'benchmark/new/gfm_em.html', 438, 420 ]
+312 silly gunzTarPerm extractEntry benchmark/new/gfm_links.html
+313 silly gunzTarPerm modified mode [ 'benchmark/new/gfm_links.html', 438, 420 ]
+314 silly gunzTarPerm extractEntry benchmark/new/ref_paren.text
+315 silly gunzTarPerm modified mode [ 'benchmark/new/ref_paren.text', 438, 420 ]
+316 silly gunzTarPerm extractEntry benchmark/new/main.text
+317 silly gunzTarPerm modified mode [ 'benchmark/new/main.text', 438, 420 ]
+318 silly gunzTarPerm extractEntry benchmark/new/list_item_text.text
+319 silly gunzTarPerm modified mode [ 'benchmark/new/list_item_text.text', 438, 420 ]
+320 silly gunzTarPerm extractEntry benchmark/new/gfm_break.html
+321 silly gunzTarPerm modified mode [ 'benchmark/new/gfm_break.html', 438, 420 ]
+322 silly gunzTarPerm extractEntry benchmark/new/nested_code.html
+323 silly gunzTarPerm modified mode [ 'benchmark/new/nested_code.html', 438, 420 ]
+324 silly gunzTarPerm extractEntry benchmark/new/gfm_code.text
+325 silly gunzTarPerm modified mode [ 'benchmark/new/gfm_code.text', 438, 420 ]
+326 silly gunzTarPerm extractEntry benchmark/new/same_bullet.html
+327 silly gunzTarPerm modified mode [ 'benchmark/new/same_bullet.html', 438, 420 ]
+328 silly gunzTarPerm extractEntry benchmark/new/escaped_angles.text
+329 silly gunzTarPerm modified mode [ 'benchmark/new/escaped_angles.text', 438, 420 ]
+330 silly gunzTarPerm extractEntry benchmark/new/nested_em.text
+331 silly gunzTarPerm modified mode [ 'benchmark/new/nested_em.text', 438, 420 ]
+332 silly gunzTarPerm extractEntry benchmark/new/blockquote_list_item.html
+333 silly gunzTarPerm modified mode [ 'benchmark/new/blockquote_list_item.html', 438, 420 ]
+334 silly gunzTarPerm extractEntry benchmark/new/nested_em.html
+335 silly gunzTarPerm modified mode [ 'benchmark/new/nested_em.html', 438, 420 ]
+336 silly gunzTarPerm extractEntry benchmark/new/nested_code.text
+337 silly gunzTarPerm modified mode [ 'benchmark/new/nested_code.text', 438, 420 ]
+338 silly gunzTarPerm extractEntry benchmark/new/blockquote_list_item.text
+339 silly gunzTarPerm modified mode [ 'benchmark/new/blockquote_list_item.text', 438, 420 ]
+340 silly gunzTarPerm extractEntry benchmark/new/gfm_break.text
+341 silly gunzTarPerm modified mode [ 'benchmark/new/gfm_break.text', 438, 420 ]
+342 silly gunzTarPerm extractEntry benchmark/new/gfm_code.html
+343 silly gunzTarPerm modified mode [ 'benchmark/new/gfm_code.html', 438, 420 ]
+344 silly gunzTarPerm extractEntry benchmark/new/lazy_blockquotes.html
+345 silly gunzTarPerm modified mode [ 'benchmark/new/lazy_blockquotes.html', 438, 420 ]
+346 silly gunzTarPerm extractEntry benchmark/new/main.html
+347 silly gunzTarPerm modified mode [ 'benchmark/new/main.html', 438, 420 ]
+348 silly gunzTarPerm extractEntry benchmark/new/case_insensitive_refs.text
+349 silly gunzTarPerm modified mode [ 'benchmark/new/case_insensitive_refs.text', 438, 420 ]
+350 silly gunzTarPerm extractEntry benchmark/new/not_a_link.html
+351 silly gunzTarPerm modified mode [ 'benchmark/new/not_a_link.html', 438, 420 ]
+352 silly gunzTarPerm extractEntry benchmark/new/nested_square_link.html
+353 silly gunzTarPerm modified mode [ 'benchmark/new/nested_square_link.html', 438, 420 ]
+354 silly gunzTarPerm extractEntry benchmark/new/not_a_link.text
+355 silly gunzTarPerm modified mode [ 'benchmark/new/not_a_link.text', 438, 420 ]
+356 silly gunzTarPerm extractEntry benchmark/new/case_insensitive_refs.html
+357 silly gunzTarPerm modified mode [ 'benchmark/new/case_insensitive_refs.html', 438, 420 ]
+358 silly gunzTarPerm extractEntry benchmark/new/escaped_angles.html
+359 silly gunzTarPerm modified mode [ 'benchmark/new/escaped_angles.html', 438, 420 ]
+360 silly gunzTarPerm extractEntry benchmark/new/toplevel_paragraphs.text
+361 silly gunzTarPerm modified mode [ 'benchmark/new/toplevel_paragraphs.text', 438, 420 ]
+362 silly gunzTarPerm extractEntry benchmark/new/lazy_blockquotes.text
+363 silly gunzTarPerm modified mode [ 'benchmark/new/lazy_blockquotes.text', 438, 420 ]
+364 silly gunzTarPerm extractEntry benchmark/new/same_bullet.text
+365 silly gunzTarPerm modified mode [ 'benchmark/new/same_bullet.text', 438, 420 ]
+366 silly gunzTarPerm extractEntry benchmark/new/loose_lists.html
+367 silly gunzTarPerm modified mode [ 'benchmark/new/loose_lists.html', 438, 420 ]
+368 silly gunzTarPerm extractEntry benchmark/new/nested_square_link.text
+369 silly gunzTarPerm modified mode [ 'benchmark/new/nested_square_link.text', 438, 420 ]
+370 silly gunzTarPerm extractEntry benchmark/new/toplevel_paragraphs.html
+371 silly gunzTarPerm modified mode [ 'benchmark/new/toplevel_paragraphs.html', 438, 420 ]
+372 silly gunzTarPerm extractEntry benchmark/new/gfm_links.text
+373 silly gunzTarPerm modified mode [ 'benchmark/new/gfm_links.text', 438, 420 ]
+374 silly gunzTarPerm extractEntry benchmark/original/code_blocks.html
+375 silly gunzTarPerm modified mode [ 'benchmark/original/code_blocks.html', 438, 420 ]
+376 silly gunzTarPerm extractEntry benchmark/original/literal_quotes_in_titles.text
+377 silly gunzTarPerm modified mode [ 'benchmark/original/literal_quotes_in_titles.text', 438, 420 ]
+378 silly gunzTarPerm extractEntry benchmark/original/links_inline_style.text
+379 silly gunzTarPerm modified mode [ 'benchmark/original/links_inline_style.text', 438, 420 ]
+380 silly gunzTarPerm extractEntry benchmark/original/inline_html_advanced.html
+381 silly gunzTarPerm modified mode [ 'benchmark/original/inline_html_advanced.html', 438, 420 ]
+382 silly gunzTarPerm extractEntry benchmark/original/inline_html_simple.html
+383 silly gunzTarPerm modified mode [ 'benchmark/original/inline_html_simple.html', 438, 420 ]
+384 silly gunzTarPerm extractEntry benchmark/original/tabs.text
+385 silly gunzTarPerm modified mode [ 'benchmark/original/tabs.text', 438, 420 ]
+386 silly gunzTarPerm extractEntry benchmark/original/tabs.html
+387 silly gunzTarPerm modified mode [ 'benchmark/original/tabs.html', 438, 420 ]
+388 silly gunzTarPerm extractEntry benchmark/original/tidyness.text
+389 silly gunzTarPerm modified mode [ 'benchmark/original/tidyness.text', 438, 420 ]
+390 silly gunzTarPerm extractEntry benchmark/original/links_reference_style.text
+391 silly gunzTarPerm modified mode [ 'benchmark/original/links_reference_style.text', 438, 420 ]
+392 silly gunzTarPerm extractEntry benchmark/original/links_reference_style.html
+393 silly gunzTarPerm modified mode [ 'benchmark/original/links_reference_style.html', 438, 420 ]
+394 silly gunzTarPerm extractEntry benchmark/original/hard_wrapped_paragraphs_with_list_like_lines.html
+395 silly gunzTarPerm modified mode [ 'benchmark/original/hard_wrapped_paragraphs_with_list_like_lines.html',
+395 silly gunzTarPerm   438,
+395 silly gunzTarPerm   420 ]
+396 silly gunzTarPerm extractEntry benchmark/original/blockquotes_with_code_blocks.text
+397 silly gunzTarPerm modified mode [ 'benchmark/original/blockquotes_with_code_blocks.text',
+397 silly gunzTarPerm   438,
+397 silly gunzTarPerm   420 ]
+398 silly gunzTarPerm extractEntry benchmark/original/hard_wrapped_paragraphs_with_list_like_lines.text
+399 silly gunzTarPerm modified mode [ 'benchmark/original/hard_wrapped_paragraphs_with_list_like_lines.text',
+399 silly gunzTarPerm   438,
+399 silly gunzTarPerm   420 ]
+400 silly gunzTarPerm extractEntry benchmark/original/inline_html_comments.html
+401 silly gunzTarPerm modified mode [ 'benchmark/original/inline_html_comments.html', 438, 420 ]
+402 silly gunzTarPerm extractEntry benchmark/original/code_spans.text
+403 silly gunzTarPerm modified mode [ 'benchmark/original/code_spans.text', 438, 420 ]
+404 silly gunzTarPerm extractEntry benchmark/original/nested_blockquotes.text
+405 silly gunzTarPerm modified mode [ 'benchmark/original/nested_blockquotes.text', 438, 420 ]
+406 silly gunzTarPerm extractEntry benchmark/original/inline_html_simple.text
+407 silly gunzTarPerm modified mode [ 'benchmark/original/inline_html_simple.text', 438, 420 ]
+408 silly gunzTarPerm extractEntry benchmark/original/markdown_documentation_syntax.html
+409 silly gunzTarPerm modified mode [ 'benchmark/original/markdown_documentation_syntax.html',
+409 silly gunzTarPerm   438,
+409 silly gunzTarPerm   420 ]
+410 silly gunzTarPerm extractEntry benchmark/original/markdown_documentation_syntax.text
+411 silly gunzTarPerm modified mode [ 'benchmark/original/markdown_documentation_syntax.text',
+411 silly gunzTarPerm   438,
+411 silly gunzTarPerm   420 ]
+412 silly gunzTarPerm extractEntry benchmark/original/auto_links.text
+413 silly gunzTarPerm modified mode [ 'benchmark/original/auto_links.text', 438, 420 ]
+414 silly gunzTarPerm extractEntry benchmark/original/code_spans.html
+415 silly gunzTarPerm modified mode [ 'benchmark/original/code_spans.html', 438, 420 ]
+416 silly gunzTarPerm extractEntry benchmark/original/ordered_and_unordered_lists.text
+417 silly gunzTarPerm modified mode [ 'benchmark/original/ordered_and_unordered_lists.text',
+417 silly gunzTarPerm   438,
+417 silly gunzTarPerm   420 ]
+418 silly gunzTarPerm extractEntry benchmark/original/horizontal_rules.html
+419 silly gunzTarPerm modified mode [ 'benchmark/original/horizontal_rules.html', 438, 420 ]
+420 silly gunzTarPerm extractEntry benchmark/original/links_shortcut_references.html
+421 silly gunzTarPerm modified mode [ 'benchmark/original/links_shortcut_references.html', 438, 420 ]
+422 silly gunzTarPerm extractEntry benchmark/original/markdown_documentation_basics.html
+423 silly gunzTarPerm modified mode [ 'benchmark/original/markdown_documentation_basics.html',
+423 silly gunzTarPerm   438,
+423 silly gunzTarPerm   420 ]
+424 silly gunzTarPerm extractEntry benchmark/original/markdown_documentation_basics.text
+425 silly gunzTarPerm modified mode [ 'benchmark/original/markdown_documentation_basics.text',
+425 silly gunzTarPerm   438,
+425 silly gunzTarPerm   420 ]
+426 silly gunzTarPerm extractEntry benchmark/original/ordered_and_unordered_lists.html
+427 silly gunzTarPerm modified mode [ 'benchmark/original/ordered_and_unordered_lists.html',
+427 silly gunzTarPerm   438,
+427 silly gunzTarPerm   420 ]
+428 silly gunzTarPerm extractEntry benchmark/original/code_blocks.text
+429 silly gunzTarPerm modified mode [ 'benchmark/original/code_blocks.text', 438, 420 ]
+430 silly gunzTarPerm extractEntry benchmark/original/strong_and_em_together.text
+431 silly gunzTarPerm modified mode [ 'benchmark/original/strong_and_em_together.text', 438, 420 ]
+432 silly gunzTarPerm extractEntry benchmark/original/horizontal_rules.text
+433 silly gunzTarPerm modified mode [ 'benchmark/original/horizontal_rules.text', 438, 420 ]
+434 silly gunzTarPerm extractEntry benchmark/original/backslash_escapes.html
+435 silly gunzTarPerm modified mode [ 'benchmark/original/backslash_escapes.html', 438, 420 ]
+436 silly gunzTarPerm extractEntry benchmark/original/auto_links.html
+437 silly gunzTarPerm modified mode [ 'benchmark/original/auto_links.html', 438, 420 ]
+438 silly gunzTarPerm extractEntry benchmark/original/amps_and_angles_encoding.html
+439 silly gunzTarPerm modified mode [ 'benchmark/original/amps_and_angles_encoding.html', 438, 420 ]
+440 silly gunzTarPerm extractEntry benchmark/original/tidyness.html
+441 silly gunzTarPerm modified mode [ 'benchmark/original/tidyness.html', 438, 420 ]
+442 silly gunzTarPerm extractEntry benchmark/original/links_shortcut_references.text
+443 silly gunzTarPerm modified mode [ 'benchmark/original/links_shortcut_references.text', 438, 420 ]
+444 silly gunzTarPerm extractEntry benchmark/original/inline_html_advanced.text
+445 silly gunzTarPerm modified mode [ 'benchmark/original/inline_html_advanced.text', 438, 420 ]
+446 silly gunzTarPerm extractEntry benchmark/original/strong_and_em_together.html
+447 silly gunzTarPerm modified mode [ 'benchmark/original/strong_and_em_together.html', 438, 420 ]
+448 silly gunzTarPerm extractEntry benchmark/original/nested_blockquotes.html
+449 silly gunzTarPerm modified mode [ 'benchmark/original/nested_blockquotes.html', 438, 420 ]
+450 silly gunzTarPerm extractEntry benchmark/original/blockquotes_with_code_blocks.html
+451 silly gunzTarPerm modified mode [ 'benchmark/original/blockquotes_with_code_blocks.html',
+451 silly gunzTarPerm   438,
+451 silly gunzTarPerm   420 ]
+452 silly gunzTarPerm extractEntry benchmark/original/links_inline_style.html
+453 silly gunzTarPerm modified mode [ 'benchmark/original/links_inline_style.html', 438, 420 ]
+454 silly gunzTarPerm extractEntry benchmark/original/backslash_escapes.text
+455 silly gunzTarPerm modified mode [ 'benchmark/original/backslash_escapes.text', 438, 420 ]
+456 silly gunzTarPerm extractEntry benchmark/original/literal_quotes_in_titles.html
+457 silly gunzTarPerm modified mode [ 'benchmark/original/literal_quotes_in_titles.html', 438, 420 ]
+458 silly gunzTarPerm extractEntry benchmark/original/amps_and_angles_encoding.text
+459 silly gunzTarPerm modified mode [ 'benchmark/original/amps_and_angles_encoding.text', 438, 420 ]
+460 silly gunzTarPerm extractEntry benchmark/original/inline_html_comments.text
+461 silly gunzTarPerm modified mode [ 'benchmark/original/inline_html_comments.text', 438, 420 ]
+462 silly gunzTarPerm extractEntry examples/ansi-rend.js
+463 silly gunzTarPerm modified mode [ 'examples/ansi-rend.js', 511, 493 ]
+464 silly gunzTarPerm extractEntry v8u/README.md
+465 silly gunzTarPerm modified mode [ 'v8u/README.md', 438, 420 ]
+466 silly gunzTarPerm extractEntry v8u/version.hpp
+467 silly gunzTarPerm modified mode [ 'v8u/version.hpp', 438, 420 ]
+468 silly gunzTarPerm extractEntry v8u/v8u.hpp
+469 silly gunzTarPerm modified mode [ 'v8u/v8u.hpp', 438, 420 ]
+470 silly gunzTarPerm extractEntry doc/robotskirt.markdown
+471 silly gunzTarPerm modified mode [ 'doc/robotskirt.markdown', 438, 420 ]
+472 silly gunzTarPerm extractEntry sundown/.npmignore
+473 silly gunzTarPerm modified mode [ 'sundown/.npmignore', 438, 420 ]
+474 silly gunzTarPerm extractEntry sundown/html_block_names.txt
+475 silly gunzTarPerm modified mode [ 'sundown/html_block_names.txt', 438, 420 ]
+476 silly gunzTarPerm extractEntry sundown/Makefile.win
+477 silly gunzTarPerm modified mode [ 'sundown/Makefile.win', 438, 420 ]
+478 silly gunzTarPerm extractEntry sundown/examples/smartypants.c
+479 silly gunzTarPerm modified mode [ 'sundown/examples/smartypants.c', 438, 420 ]
+480 silly gunzTarPerm extractEntry sundown/examples/sundown.c
+481 silly gunzTarPerm modified mode [ 'sundown/examples/sundown.c', 438, 420 ]
+482 silly gunzTarPerm extractEntry sundown/html/houdini.h
+483 silly gunzTarPerm modified mode [ 'sundown/html/houdini.h', 438, 420 ]
+484 silly gunzTarPerm extractEntry sundown/html/houdini_html_e.c
+485 silly gunzTarPerm modified mode [ 'sundown/html/houdini_html_e.c', 438, 420 ]
+486 silly gunzTarPerm extractEntry sundown/html/houdini_href_e.c
+487 silly gunzTarPerm modified mode [ 'sundown/html/houdini_href_e.c', 438, 420 ]
+488 silly gunzTarPerm extractEntry sundown/html/html_smartypants.c
+489 silly gunzTarPerm modified mode [ 'sundown/html/html_smartypants.c', 438, 420 ]
+490 silly gunzTarPerm extractEntry sundown/html/html.c
+491 silly gunzTarPerm modified mode [ 'sundown/html/html.c', 511, 493 ]
+492 silly gunzTarPerm extractEntry sundown/html/html.h
+493 silly gunzTarPerm modified mode [ 'sundown/html/html.h', 438, 420 ]
+494 silly gunzTarPerm extractEntry sundown/sundown.def
+495 silly gunzTarPerm modified mode [ 'sundown/sundown.def', 438, 420 ]
+496 silly gunzTarPerm extractEntry sundown/README.markdown
+497 silly gunzTarPerm modified mode [ 'sundown/README.markdown', 438, 420 ]
+498 silly gunzTarPerm extractEntry sundown/Makefile
+499 silly gunzTarPerm modified mode [ 'sundown/Makefile', 438, 420 ]
+500 silly gunzTarPerm extractEntry sundown/src/autolink.c
+501 silly gunzTarPerm modified mode [ 'sundown/src/autolink.c', 438, 420 ]
+502 silly gunzTarPerm extractEntry sundown/src/buffer.c
+503 silly gunzTarPerm modified mode [ 'sundown/src/buffer.c', 438, 420 ]
+504 silly gunzTarPerm extractEntry sundown/src/autolink.h
+505 silly gunzTarPerm modified mode [ 'sundown/src/autolink.h', 438, 420 ]
+506 silly gunzTarPerm extractEntry sundown/src/markdown.c
+507 silly gunzTarPerm modified mode [ 'sundown/src/markdown.c', 438, 420 ]
+508 silly gunzTarPerm extractEntry sundown/src/stack.h
+509 silly gunzTarPerm modified mode [ 'sundown/src/stack.h', 438, 420 ]
+510 silly gunzTarPerm extractEntry sundown/src/stack.c
+511 silly gunzTarPerm modified mode [ 'sundown/src/stack.c', 438, 420 ]
+512 silly gunzTarPerm extractEntry sundown/src/html_blocks.h
+513 silly gunzTarPerm modified mode [ 'sundown/src/html_blocks.h', 438, 420 ]
+514 silly gunzTarPerm extractEntry sundown/src/markdown.h
+515 silly gunzTarPerm modified mode [ 'sundown/src/markdown.h', 438, 420 ]
+516 silly gunzTarPerm extractEntry sundown/src/buffer.h
+517 silly gunzTarPerm modified mode [ 'sundown/src/buffer.h', 438, 420 ]
+518 silly gunzTarPerm extractEntry index.html
+519 silly gunzTarPerm modified mode [ 'index.html', 438, 420 ]
+520 silly gunzTarPerm extractEntry houdini/.npmignore
+521 silly gunzTarPerm modified mode [ 'houdini/.npmignore', 438, 420 ]
+522 silly gunzTarPerm extractEntry houdini/README.md
+523 silly gunzTarPerm modified mode [ 'houdini/README.md', 438, 420 ]
+524 silly gunzTarPerm extractEntry houdini/houdini_html_u.c
+525 silly gunzTarPerm modified mode [ 'houdini/houdini_html_u.c', 438, 420 ]
+526 silly gunzTarPerm extractEntry houdini/houdini.h
+527 silly gunzTarPerm modified mode [ 'houdini/houdini.h', 438, 420 ]
+528 silly gunzTarPerm extractEntry houdini/houdini_html_e.c
+529 silly gunzTarPerm modified mode [ 'houdini/houdini_html_e.c', 438, 420 ]
+530 silly gunzTarPerm extractEntry houdini/buffer.c
+531 silly gunzTarPerm modified mode [ 'houdini/buffer.c', 438, 420 ]
+532 silly gunzTarPerm extractEntry houdini/html_unescape.h
+533 silly gunzTarPerm modified mode [ 'houdini/html_unescape.h', 438, 420 ]
+534 silly gunzTarPerm extractEntry houdini/houdini_href_e.c
+535 silly gunzTarPerm modified mode [ 'houdini/houdini_href_e.c', 438, 420 ]
+536 silly gunzTarPerm extractEntry houdini/COPYING
+537 silly gunzTarPerm modified mode [ 'houdini/COPYING', 438, 420 ]
+538 silly gunzTarPerm extractEntry houdini/houdini_uri_u.c
+539 silly gunzTarPerm modified mode [ 'houdini/houdini_uri_u.c', 438, 420 ]
+540 silly gunzTarPerm extractEntry houdini/houdini_xml_e.c
+541 silly gunzTarPerm modified mode [ 'houdini/houdini_xml_e.c', 438, 420 ]
+542 silly gunzTarPerm extractEntry houdini/houdini_js_u.c
+543 silly gunzTarPerm modified mode [ 'houdini/houdini_js_u.c', 438, 420 ]
+544 silly gunzTarPerm extractEntry houdini/houdini_js_e.c
+545 silly gunzTarPerm modified mode [ 'houdini/houdini_js_e.c', 438, 420 ]
+546 silly gunzTarPerm extractEntry houdini/tools/build_tables.c
+547 silly gunzTarPerm modified mode [ 'houdini/tools/build_tables.c', 438, 420 ]
+548 silly gunzTarPerm extractEntry houdini/tools/wikipedia_table.txt
+549 silly gunzTarPerm modified mode [ 'houdini/tools/wikipedia_table.txt', 438, 420 ]
+550 silly gunzTarPerm extractEntry houdini/tools/build_table.py
+551 silly gunzTarPerm modified mode [ 'houdini/tools/build_table.py', 438, 420 ]
+552 silly gunzTarPerm extractEntry houdini/houdini_uri_e.c
+553 silly gunzTarPerm modified mode [ 'houdini/houdini_uri_e.c', 438, 420 ]
+554 silly gunzTarPerm extractEntry houdini/html_unescape.gperf
+555 silly gunzTarPerm modified mode [ 'houdini/html_unescape.gperf', 438, 420 ]
+556 silly gunzTarPerm extractEntry houdini/buffer.h
+557 silly gunzTarPerm modified mode [ 'houdini/buffer.h', 438, 420 ]
+558 silly gunzTarPerm extractEntry houdini/Makefile
+559 silly gunzTarPerm modified mode [ 'houdini/Makefile', 438, 420 ]
+560 silly gunzTarPerm extractEntry src/markdown.c
+561 silly gunzTarPerm modified mode [ 'src/markdown.c', 438, 420 ]
+562 silly gunzTarPerm extractEntry src/version.hpp
+563 silly gunzTarPerm modified mode [ 'src/version.hpp', 438, 420 ]
+564 silly gunzTarPerm extractEntry src/houdini_uri_u.c
+565 silly gunzTarPerm modified mode [ 'src/houdini_uri_u.c', 438, 420 ]
+566 silly gunzTarPerm extractEntry src/houdini_html_u.c
+567 silly gunzTarPerm modified mode [ 'src/houdini_html_u.c', 438, 420 ]
+568 silly gunzTarPerm extractEntry src/houdini.h
+569 silly gunzTarPerm modified mode [ 'src/houdini.h', 438, 420 ]
+570 silly gunzTarPerm extractEntry src/houdini_html_e.c
+571 silly gunzTarPerm modified mode [ 'src/houdini_html_e.c', 438, 420 ]
+572 silly gunzTarPerm extractEntry src/autolink.c
+573 silly gunzTarPerm modified mode [ 'src/autolink.c', 438, 420 ]
+574 silly gunzTarPerm extractEntry src/robotskirt.cc
+575 silly gunzTarPerm modified mode [ 'src/robotskirt.cc', 438, 420 ]
+576 silly gunzTarPerm extractEntry src/buffer.c
+577 silly gunzTarPerm modified mode [ 'src/buffer.c', 438, 420 ]
+578 silly gunzTarPerm extractEntry src/html_unescape.h
+579 silly gunzTarPerm modified mode [ 'src/html_unescape.h', 438, 420 ]
+580 silly gunzTarPerm extractEntry src/houdini_href_e.c
+581 silly gunzTarPerm modified mode [ 'src/houdini_href_e.c', 438, 420 ]
+582 silly gunzTarPerm extractEntry src/autolink.h
+583 silly gunzTarPerm modified mode [ 'src/autolink.h', 438, 420 ]
+584 silly gunzTarPerm extractEntry src/houdini_js_e.c
+585 silly gunzTarPerm modified mode [ 'src/houdini_js_e.c', 438, 420 ]
+586 silly gunzTarPerm extractEntry src/html_smartypants.c
+587 silly gunzTarPerm modified mode [ 'src/html_smartypants.c', 438, 420 ]
+588 silly gunzTarPerm extractEntry src/stack.h
+589 silly gunzTarPerm modified mode [ 'src/stack.h', 438, 420 ]
+590 silly gunzTarPerm extractEntry src/html.c
+591 silly gunzTarPerm modified mode [ 'src/html.c', 511, 493 ]
+592 silly gunzTarPerm extractEntry src/stack.c
+593 silly gunzTarPerm modified mode [ 'src/stack.c', 438, 420 ]
+594 silly gunzTarPerm extractEntry src/houdini_xml_e.c
+595 silly gunzTarPerm modified mode [ 'src/houdini_xml_e.c', 438, 420 ]
+596 silly gunzTarPerm extractEntry src/v8u.hpp
+597 silly gunzTarPerm modified mode [ 'src/v8u.hpp', 438, 420 ]
+598 silly gunzTarPerm extractEntry src/houdini_js_u.c
+599 silly gunzTarPerm modified mode [ 'src/houdini_js_u.c', 438, 420 ]
+600 silly gunzTarPerm extractEntry src/html_blocks.h
+601 silly gunzTarPerm modified mode [ 'src/html_blocks.h', 438, 420 ]
+602 silly gunzTarPerm extractEntry src/html.h
+603 silly gunzTarPerm modified mode [ 'src/html.h', 438, 420 ]
+604 silly gunzTarPerm extractEntry src/houdini_uri_e.c
+605 silly gunzTarPerm modified mode [ 'src/houdini_uri_e.c', 438, 420 ]
+606 silly gunzTarPerm extractEntry src/markdown.h
+607 silly gunzTarPerm modified mode [ 'src/markdown.h', 438, 420 ]
+608 silly gunzTarPerm extractEntry src/buffer.h
+609 silly gunzTarPerm modified mode [ 'src/buffer.h', 438, 420 ]
+610 silly gunzTarPerm extractEntry bin/robotskirt
+611 silly gunzTarPerm modified mode [ 'bin/robotskirt', 511, 493 ]
+612 silly gunzTarPerm extractEntry binding.gyp
+613 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+614 silly lockFile 3cfdbdf8-botskirt-node-modules-robotskirt tar:///home/jadi/w/jff/justforfun/node_modules/docpad-plugin-robotskirt/node_modules/robotskirt
+615 silly lockFile 3cfdbdf8-botskirt-node-modules-robotskirt tar:///home/jadi/w/jff/justforfun/node_modules/docpad-plugin-robotskirt/node_modules/robotskirt
+616 silly lockFile 4a0111fd-npm-robotskirt-2-7-1-package-tgz tar:///home/jadi/.npm/robotskirt/2.7.1/package.tgz
+617 silly lockFile 4a0111fd-npm-robotskirt-2-7-1-package-tgz tar:///home/jadi/.npm/robotskirt/2.7.1/package.tgz
+618 info preinstall robotskirt@2.7.1
+619 verbose readDependencies using package.json deps
+620 verbose readDependencies using package.json deps
+621 silly resolved []
+622 verbose about to build /home/jadi/w/jff/justforfun/node_modules/docpad-plugin-robotskirt/node_modules/robotskirt
+623 info build /home/jadi/w/jff/justforfun/node_modules/docpad-plugin-robotskirt/node_modules/robotskirt
+624 verbose linkStuff [ false,
+624 verbose linkStuff   false,
+624 verbose linkStuff   false,
+624 verbose linkStuff   '/home/jadi/w/jff/justforfun/node_modules/docpad-plugin-robotskirt/node_modules' ]
+625 info linkStuff robotskirt@2.7.1
+626 verbose linkBins robotskirt@2.7.1
+627 verbose link bins [ { robotskirt: 'bin/robotskirt' },
+627 verbose link bins   '/home/jadi/w/jff/justforfun/node_modules/docpad-plugin-robotskirt/node_modules/.bin',
+627 verbose link bins   false ]
+628 verbose linkMans robotskirt@2.7.1
+629 verbose rebuildBundles robotskirt@2.7.1
+630 info install robotskirt@2.7.1
+631 verbose unsafe-perm in lifecycle true
+632 info robotskirt@2.7.1 Failed to exec install script
+633 verbose node_modules/docpad-plugin-robotskirt/node_modules/robotskirt unbuild
+634 info preuninstall robotskirt@2.7.1
+635 info uninstall robotskirt@2.7.1
+636 verbose false,/home/jadi/w/jff/justforfun/node_modules,/home/jadi/w/jff/justforfun/node_modules/docpad-plugin-robotskirt/node_modules unbuild robotskirt@2.7.1
+637 verbose /home/jadi/w/jff/justforfun/node_modules/docpad-plugin-robotskirt/node_modules/.bin,[object Object] binRoot
+638 info postuninstall robotskirt@2.7.1
+639 verbose about to build /home/jadi/w/jff/justforfun/node_modules/docpad-plugin-robotskirt
+640 verbose node_modules/docpad-plugin-robotskirt unbuild
+641 info preuninstall docpad-plugin-robotskirt@2.0.3
+642 info uninstall docpad-plugin-robotskirt@2.0.3
+643 verbose true,/home/jadi/w/jff/justforfun/node_modules,/home/jadi/w/jff/justforfun/node_modules unbuild docpad-plugin-robotskirt@2.0.3
+644 info postuninstall docpad-plugin-robotskirt@2.0.3
+645 error robotskirt@2.7.1 install: `node-gyp rebuild`
+645 error Exit status 1
+646 error Failed at the robotskirt@2.7.1 install script.
+646 error This is most likely a problem with the robotskirt package,
+646 error not with npm itself.
+646 error Tell the author that this fails on your system:
+646 error     node-gyp rebuild
+646 error You can get their info via:
+646 error     npm owner ls robotskirt
+646 error There is likely additional logging output above.
+647 error System Linux 3.15.5-2-ARCH
+648 error command "/usr/bin/node" "/usr/bin/npm" "install" "docpad-plugin-robotskirt@2" "--save"
+649 error cwd /home/jadi/w/jff/justforfun
+650 error node -v v0.10.29
+651 error npm -v 1.4.21
+652 error code ELIFECYCLE
+653 verbose exit [ 1, true ]

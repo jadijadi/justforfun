@@ -22,14 +22,14 @@ title: تولد یک سیستم‌عامل، بخش ششم
 
 
 
-<div class=email>
-**از:** Torvalds@klaava.Helsinki.Fi (لینوس بندیکت توروالدز)
+<div class="email">
+**از:** Torvalds@klaava.Helsinki.Fi (لینوس بندیکت توروالدز) 
 
 **به:** گروه خبری comp.os.minix
 
 **موضوع:** Gcc-1.40 و یک سوال مربوط به پوسیکس
 
-شناسه پیام: <1191Jul13,10050.9886@klaava.Helsinki.Fi>
+**شناسه پیام:** <1191Jul13,10050.9886@klaava.Helsinki.Fi>
 
 **تاریخ:** ۳ جولای ۹۱ ساعت۱۰:۰۰:۵۰ جی.ام.تی.
 

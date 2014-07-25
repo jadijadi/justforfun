@@ -1,0 +1,20 @@
+---
+layout: onepage
+title: فقط برای تفریح
+---
+
+<% for article in @getCollection("html").findAllLive({relativeOutDirPath: "chapters"},[{order:1}]).toJSON(): %>
+
+<% if article.chapter != @previous_chapter : %> 
+
+<h1 ><%- article.chapter %></h1 > 
+
+<% @previous_chapter = article.chapter %> 
+
+<% end %> 
+
+<h2 ><%- article.title %></h2 > 
+
+<%- article.content %> 
+
+<% end %> 
