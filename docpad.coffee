@@ -1,10 +1,9 @@
-# DocPad Configuration File
-# http://docpad.org/docs/config
-
-# Define the DocPad Configuration
+# Define the Configuration
 docpadConfig = {
-	# ...
+	templateData:
+		site:
+			title: "فقط برای تفریح"
 }
 
-# Export the DocPad Configuration
+# Export the Configuration
 module.exports = docpadConfig
