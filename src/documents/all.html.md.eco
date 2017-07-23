@@ -14,6 +14,7 @@ title: فقط برای تفریح
 <% end %> 
 
 <h2 ><%- article.title %></h2 > 
+ 
 
 <%- article.content %> 
 
