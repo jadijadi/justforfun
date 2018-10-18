@@ -5,16 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>فقط برای تفریح | درباره</title>
-  <link  rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" /><link  rel="stylesheet" href="/style/bootstrap-rtl.css" /><link  rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css" /><link  rel="stylesheet" href="/style/style.css" />
+  <style >html.wait {
+	cursor: wait !important;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}</style><link  rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" /><link  rel="stylesheet" href="/style/bootstrap-rtl.css" /><link  rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css" /><link  rel="stylesheet" href="/style/style.css" />
 
   
 
   
-    <meta name="generator" content="DocPad v6.79.4" />
+    <meta name="generator" content="DocPad v6.80.9" />
 </head>
 
 <body role="document">
-  <script defer="defer"  src="/vendor/jquery-1.11.1.min.js"></script><script defer="defer"  src="/scripts/script.js"></script><script defer="defer"  src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script >(function(){
+	/* Did we just livereload? */
+var log = !!(localStorage && console && console.log && true);
+if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReload completed at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var primus = new Primus('/docpad-livereload');
+	primus.on('data', function(data){
+		if ( data && data.message ) {
+			if ( data.message === 'generateBefore' ) {
+				if ( log ) {
+					console.log('LiveReload started at', new Date());
+				}
+				if ( typeof document.getElementsByTagName !== 'undefined' ) {
+	document.getElementsByTagName('html')[0].className += ' wait';
+}
+			}
+			else if ( data.message === 'generateAfter' ) {
+				if ( log ) {
+					localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+				}
+				document.location.reload();
+			}
+		}
+	});
+};
+	/* Inject socket into our page */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = 'async';
+	t.src = '/docpad-livereload/primus.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t, s);
+};
+	if ( typeof Primus !== 'undefined' ) {
+		listen();
+	} else {
+		inject();
+	}
+})();</script><script defer="defer"  src="/vendor/jquery-1.11.1.min.js"></script><script defer="defer"  src="/scripts/script.js"></script><script defer="defer"  src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <!-- show the chapters -->
 
     <div  class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -38,8 +87,7 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-  <div class="container" role="main">
- 
+  <div class="container" role="main"> 
   
   <div class="row"><div class="row-md-10 top-space-reserver" ></div><div>
   
@@ -259,13 +307,12 @@
 <h1 class="articletitle">درباره</h1>		
      
       
-<h3>بسیار متشکرم</h3>
-
+<p>###بسیار متشکرم</p>
 <p>در جامعه فعلی مون، همه انسان نیازمند پول هستن و کمک مالی شما مطمئنا برای ادامه راه، کمکی بسیار خوبه. علاوه بر اون حمایت مالی شما برای من به معنی حمایت معنوی هم هست و نشون می ده کار از نظر شما مثبت بوده و این بسیار انگیزه بخشه. </p>
-
 <p>از شما ممنونم و روزتون حسابی خوش.</p>
+<p>به امید کتاب‌های بعدی،
+جادی</p>
 
-<p>به امید کتاب‌های بعدی،<br />جادی</p>
 
 
 <div class="row">
@@ -284,7 +331,7 @@
     
     
     <div class="col-md-3" > <!-- left menu -->
-      
+
         
 			<a class="list-group-item active" >مقدمه</a>
           
@@ -572,9 +619,7 @@
       <p></p>
       <div class="alert alert-success support" role="alert">
       <a href=/support.html>از این پروژه حمایت کنید</a>
-      </div>
-
- 
+      </div> 
     </div> <!--left menu-->
     
     
@@ -584,7 +629,7 @@
   </div>
   </div>
 
-  <div class="well">
+<div class="well">
 	<p class="footer">
 		کتاب لینوکس و زندگی کاری است از 
 		<a href="http://jadi.net">جادی</a> روی 
@@ -598,5 +643,4 @@
 
 </div > <!-- main container -->
 </body >
-</html > 
-
+</html >

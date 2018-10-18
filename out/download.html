@@ -5,16 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>فقط برای تفریح | دریافت کتاب</title>
-  <link  rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" /><link  rel="stylesheet" href="/style/bootstrap-rtl.css" /><link  rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css" /><link  rel="stylesheet" href="/style/style.css" />
+  <style >html.wait {
+	cursor: wait !important;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}</style><link  rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" /><link  rel="stylesheet" href="/style/bootstrap-rtl.css" /><link  rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css" /><link  rel="stylesheet" href="/style/style.css" />
 
   
 
   
-    <meta name="generator" content="DocPad v6.79.4" />
+    <meta name="generator" content="DocPad v6.80.9" />
 </head>
 
 <body role="document">
-  <script defer="defer"  src="/vendor/jquery-1.11.1.min.js"></script><script defer="defer"  src="/scripts/script.js"></script><script defer="defer"  src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script >(function(){
+	/* Did we just livereload? */
+var log = !!(localStorage && console && console.log && true);
+if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReload completed at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var primus = new Primus('/docpad-livereload');
+	primus.on('data', function(data){
+		if ( data && data.message ) {
+			if ( data.message === 'generateBefore' ) {
+				if ( log ) {
+					console.log('LiveReload started at', new Date());
+				}
+				if ( typeof document.getElementsByTagName !== 'undefined' ) {
+	document.getElementsByTagName('html')[0].className += ' wait';
+}
+			}
+			else if ( data.message === 'generateAfter' ) {
+				if ( log ) {
+					localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+				}
+				document.location.reload();
+			}
+		}
+	});
+};
+	/* Inject socket into our page */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = 'async';
+	t.src = '/docpad-livereload/primus.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t, s);
+};
+	if ( typeof Primus !== 'undefined' ) {
+		listen();
+	} else {
+		inject();
+	}
+})();</script><script defer="defer"  src="/vendor/jquery-1.11.1.min.js"></script><script defer="defer"  src="/scripts/script.js"></script><script defer="defer"  src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <!-- show the chapters -->
 
     <div  class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -38,8 +87,7 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-  <div class="container" role="main">
- 
+  <div class="container" role="main"> 
   
   <div class="row"><div class="row-md-10 top-space-reserver" ></div><div>
   
@@ -260,7 +308,6 @@
      
       
 <p>درسته که می تونین وب‌سایت این کتاب رو فصل به فصل از روی همه دستگاه ها بخونین، اما ممکنه ترجیح بدین به شکل افلاین هم به اون دسترسی داشته باشین. راه‌های زیر بهترین پاسخ برای این جریان هستن:</p>
-
 <ul>
 <li>برای کسایی که ترجیح می دن به جای کلیک کردن، اسکرول کنن: <a href="/all.html">کتاب کامل در یک صفحه وب</a></li>
 <li>برای کسانی که پرینت کردن رو کاغذ از نظرشون بهترین روش است؛ <a href="/justforfun_persian.pdf">دانلود کتاب در قطع آ۴ به شکل پی دی اف</a></li>
@@ -268,12 +315,14 @@
 <li>برای کسایی که می خوان روی کیندل بخونن؛ <a href="/justforfun_persian.mobi">نسخه موبی مخصوص کیندل</a> و البته نسخه ای با فونت های بهتر <a href="Just%20for%20Fun_%20The%20Story%20of%20an%20Accidental%20R%20-%20Linus%20Torvalds,%20David%20Diamond,Jadi.azw3">در فرمت آمازون</a></li>
 <li>برای کسانی که می خوان روی کتابخون‌های دیگه یا گوشی موبایل [با برنامه‌هایی مثل +Moon بخونن؛ <a href="/justforfun_persian.epub">نسخه ای پاب</a> و البته <a href="/justforfun_persian_rtl.epub">نسخه بهتری که متین رضایی درست کرده</a></li>
 </ul>
-
 <p>و خب معلومه که اگر کلا آفلاین شدین، بد نیست یادتون باشه که <a href="/support.html">این پروژه برای ادامه نیاز به حمایت شما داره</a> (: منظورم از ادامه، در اینجا اضافه شدن کتاب‌های جدید است.</p>
-
-<p>از کیفیت فایل‌های دانلودی راضی نیستین؟ <br /><em> کیفیت بهترش رو درست کنین و به آدرس <a href='mailto:jadijadi+jff@gmail.com'>jadijadi+jff@gmail.com</a> بفرستید تا جایگزین کنم <br /></em> نقدها و پیشنهادها رو به <a href='mailto:jadijadi+jff@gmail.com'>jadijadi+jff@gmail.com</a> بفرستین تا اگر تونستم اصلاح کنم</p>
-
+<p>از کیفیت فایل‌های دانلودی راضی نیستین؟ </p>
+<ul>
+<li>کیفیت بهترش رو درست کنین و به آدرس <a href="mailto:jadijadi+jff@gmail.com">jadijadi+jff@gmail.com</a> بفرستید تا جایگزین کنم </li>
+<li>نقدها و پیشنهادها رو به <a href="mailto:jadijadi+jff@gmail.com">jadijadi+jff@gmail.com</a> بفرستین تا اگر تونستم اصلاح کنم</li>
+</ul>
 <p>و البته اگر می خواین کتاب کاغذی رو بخرین، از <a href="/support.html">صفحه حمایت ها</a> می‌تونین سفارش بدین.</p>
+
 
 
 <div class="row">
@@ -292,7 +341,7 @@
     
     
     <div class="col-md-3" > <!-- left menu -->
-      
+
         
 			<a class="list-group-item active" >مقدمه</a>
           
@@ -580,9 +629,7 @@
       <p></p>
       <div class="alert alert-success support" role="alert">
       <a href=/support.html>از این پروژه حمایت کنید</a>
-      </div>
-
- 
+      </div> 
     </div> <!--left menu-->
     
     
@@ -592,7 +639,7 @@
   </div>
   </div>
 
-  <div class="well">
+<div class="well">
 	<p class="footer">
 		کتاب لینوکس و زندگی کاری است از 
 		<a href="http://jadi.net">جادی</a> روی 
@@ -606,5 +653,4 @@
 
 </div > <!-- main container -->
 </body >
-</html > 
-
+</html >

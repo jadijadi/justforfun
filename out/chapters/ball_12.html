@@ -5,16 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>فقط برای تفریح | فرش قرمز، بخش دوازدهم</title>
-  <link  rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" /><link  rel="stylesheet" href="/style/bootstrap-rtl.css" /><link  rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css" /><link  rel="stylesheet" href="/style/style.css" />
+  <style >html.wait {
+	cursor: wait !important;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}</style><link  rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" /><link  rel="stylesheet" href="/style/bootstrap-rtl.css" /><link  rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css" /><link  rel="stylesheet" href="/style/style.css" />
 
   
 
   
-    <meta name="generator" content="DocPad v6.79.4" />
+    <meta name="generator" content="DocPad v6.80.9" />
 </head>
 
 <body role="document">
-  <script defer="defer"  src="/vendor/jquery-1.11.1.min.js"></script><script defer="defer"  src="/scripts/script.js"></script><script defer="defer"  src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script >(function(){
+	/* Did we just livereload? */
+var log = !!(localStorage && console && console.log && true);
+if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReload completed at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var primus = new Primus('/docpad-livereload');
+	primus.on('data', function(data){
+		if ( data && data.message ) {
+			if ( data.message === 'generateBefore' ) {
+				if ( log ) {
+					console.log('LiveReload started at', new Date());
+				}
+				if ( typeof document.getElementsByTagName !== 'undefined' ) {
+	document.getElementsByTagName('html')[0].className += ' wait';
+}
+			}
+			else if ( data.message === 'generateAfter' ) {
+				if ( log ) {
+					localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+				}
+				document.location.reload();
+			}
+		}
+	});
+};
+	/* Inject socket into our page */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = 'async';
+	t.src = '/docpad-livereload/primus.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t, s);
+};
+	if ( typeof Primus !== 'undefined' ) {
+		listen();
+	} else {
+		inject();
+	}
+})();</script><script defer="defer"  src="/vendor/jquery-1.11.1.min.js"></script><script defer="defer"  src="/scripts/script.js"></script><script defer="defer"  src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <!-- show the chapters -->
 
     <div  class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -38,8 +87,7 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-  <div class="container" role="main">
- 
+  <div class="container" role="main"> 
   
   <div class="row"><div class="row-md-10 top-space-reserver" ></div><div>
   
@@ -365,20 +413,14 @@
      
       
 <p>اگر ندانید که جنگ با آسیاب‌های بادی مشکل است، جنگیدن با آن‌ها ساده خواهد بود. پنج سال پیش که مردم از من می‌پرسیدند که آیا لینوکس موفق خواهد شد در جنگ کامپیوترهای رومیزی، کوچک‌ترین ضربه‌ای به مایکروسافت بزند، همیشه تردید را در صدایشان تشخیص می‌دادم. آن‌ها به این موضوع شک داشتند. واقعیت این است که احتمالا آن‌ها بیش از من در مورد حقیقت موضوع اطلاع داشتند.</p>
-
 <p>من واقعا درکی از همه قدم‌های مورد نیاز برای رسیدن به آن هدف نداشتم. نه تنها در مورد مشکلات تکنولوژیک پیش روی ایجاد یک سیستم‌عامل کامل و قابل اتکا اطلاع چندانی نداشتم که حتی این را هم نمی‌دانستم که برای عرضه چنین سیستم‌عاملی به جز یک تکنولوژی موفق، به چه چیزهایی نیاز است. احتمالا اگر از اول می‌دانستم که برای موفقیت لینوکس به چه میزان زیرساخت نیاز است، از همان ابتدا روحیه‌ام را از دست می‌دادم. مساله این نیست که کار ما باید خوب باشد، مساله این است که علاوه بر خوب بودن ما، کلی چیز دیگر هم باید خوب پیش برود.</p>
-
 <p>هر آدم عاقلی که به کوه ناهموار پیش رو نظر می‌انداخت، از ایده صعود به آن به وحشت می‌افتاد. برای نمونه به مشکلات ایده پشتیبانی از سخت‌افزارهای کامپیوترهای شخصی نگاه کنید که بدون شک یکی از متنوع‌ترین گونه‌های کامپیوتری روی زمین‌اند. برای داشتن یک سیستم‌عامل موفق، باید بتوان باگ‌های نرم‌افزارهایی را اصلاح کرد که نه امکان تکرار و بررسی عملی آن‌ها را دارید و نه علاقه‌ای به اصلاح آن‌ها؛ اما شما به لینوکس علاقه دارید پس باید به تلاش برای حل مشکلات مرتبط با آن هم علاقه‌مند باشید.</p>
-
 <p>حتی برای فکر کردن به داشتن سهمی در بازار تجاری، باید میزان قابل توجهی کاربر داشته باشید. از همان روزهای اول لینوکس، می‌شد با یک شرکت مساله پشتیبانی را تا حدی پاسخ گفت ولی برای مقیاس بزرگ‌تر، نیاز به تعداد افراد زیاد و تجهیزات فراوان می‌بود. نمی‌شود برای سی روز اول نصب، یک شماره تلفن رایگان به طرف داد تا اگر مشکلی داشت زنگ بزند. البته پشتیبانی هیچ‌وقت در لینوکس به موضوعی مشکل‌زا تبدیل نشد چون شرکت‌های زیادی بودند که در این مورد به مشتریان کمک می‌کردند، از <abbr title="Linuxcare">لینوکس کر</abbr > و ردهت گرفته تا آی.بی.ام. و سیلیکون‌ گرافیکس و کامپک و دل. من برای مدت‌های مدید اصولا متوجه این موضوع نبودم در حالی که مساله پشتیبانی همیشه یک نقطه حساس و ارزشمند بوده است.</p>
-
 <p>من بر خلاف افرادی که پیش زمینه فنی کافی در صنعت داشتند و بر خلاف روزنامه‌نگارانی که متخصص صنعت بودند، فقط یک برنامه‌نویس با دید محدود بودم که چیز چندانی در مورد نیازهای آینده نمی‌داند. حتی از نظر فنی هم شاید اطلاعات کافی نداشتم چرا که اگر از اول می‌دانستم که چه راه دشواری قرار است پیموده شود و اگر می‌دانستم که ده سال بعد از شروع هم باید کماکان به همان کار ادامه دهم -و در تمام این ده سال،‌ لینوکس عملا شغل تمام وقتم باشد- احتمالا هیچ‌وقت کار را شروع نمی‌کردم.</p>
-
 <p>و از مزاحمت‌ها هم بگویم! این روزها مزاحمت زیادی ندارم ولی گاه‌گداری افرادی که از متن‌باز خوششان نمی‌آید یا کسانی که با یک باگ روبرو می‌شوند، به من ایمیل‌های تند می‌زنند و از سر ناامیدی به من فحش می‌دهند. در مقایسه با ایمیل‌های مثبتی که دریافت می‌کنم، این ایمیل‌ها به حساب نمی‌آیند ولی به هرحال آن‌ها را دریافت می‌کنم.</p>
-
 <p>بله! اگر می‌دانستم که چقدر کار باید انجام شود و انجام آن چقدر دردسر دارد و پیش بردن بعضی چیزها چقدر انرژی می‌طلبد، شاید اصلا شروع نمی‌کردم. اگر سواد کافی برای درک مشکلات پیش رو داشتم، احتمالا هیچ‌وقت لینوکس را از همان دو سه نسخه اولیه، جلوتر نمی‌بردم. اگر می‌دانستم که چه‌قدر نکات جزیی را باید مراعات کنم و اگر می‌دانستم که مردم چه انتظاراتی از یک سیستم‌عامل دارند، سناریوهای ترسناکی در ذهنم شکل می‌گرفت که هرگز نمی‌توانستم بر آن‌ها غلبه کنم.</p>
-
 <p>البته جنبه‌های مثبت را هم پیش‌بینی نکرده بودم. مثل اینکه چقدر حمایت خواهم شد و چند نفر برای انجام این پروژه دست به دست هم خواهند داد. پس اجازه دهید تا نظرم را عوض کنم. به نظرم اگر جنبه‌های مثبت را از پیش می‌دانستم، به احتمال زیاد این کار را شروع می‌کردم.</p>
+
 
 
 <div class="progress" style="margin-bottom: 0;">
@@ -403,7 +445,7 @@
     
     
     <div class="col-md-3" > <!-- left menu -->
-      
+
         
 			<a class="list-group-item active" >مقدمه</a>
           
@@ -691,9 +733,7 @@
       <p></p>
       <div class="alert alert-success support" role="alert">
       <a href=/support.html>از این پروژه حمایت کنید</a>
-      </div>
-
- 
+      </div> 
     </div> <!--left menu-->
     
     
@@ -703,7 +743,7 @@
   </div>
   </div>
 
-  <div class="well">
+<div class="well">
 	<p class="footer">
 		کتاب لینوکس و زندگی کاری است از 
 		<a href="http://jadi.net">جادی</a> روی 
@@ -717,5 +757,4 @@
 
 </div > <!-- main container -->
 </body >
-</html > 
-
+</html >
