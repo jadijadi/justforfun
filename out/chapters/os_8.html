@@ -5,11 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>فقط برای تفریح | تولد یک سیستم‌عامل، بخش هشتم</title>
-  <style >html.wait {
-	cursor: wait !important;
-	opacity: 0;
-	transition: opacity 0.5s ease;
-}</style><link  rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" /><link  rel="stylesheet" href="/style/bootstrap-rtl.css" /><link  rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css" /><link  rel="stylesheet" href="/style/style.css" />
+  <link  rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" /><link  rel="stylesheet" href="/style/bootstrap-rtl.css" /><link  rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css" /><link  rel="stylesheet" href="/style/style.css" />
 
   
 
@@ -18,52 +14,7 @@
 </head>
 
 <body role="document">
-  <script >(function(){
-	/* Did we just livereload? */
-var log = !!(localStorage && console && console.log && true);
-if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
-	localStorage.removeItem('/docpad-livereload/reloaded');
-	console.log('LiveReload completed at', new Date())
-}
-
-/* Listen for the regenerated event and perform a reload of the page when the event occurs */
-var listen = function(){
-	var primus = new Primus('/docpad-livereload');
-	primus.on('data', function(data){
-		if ( data && data.message ) {
-			if ( data.message === 'generateBefore' ) {
-				if ( log ) {
-					console.log('LiveReload started at', new Date());
-				}
-				if ( typeof document.getElementsByTagName !== 'undefined' ) {
-	document.getElementsByTagName('html')[0].className += ' wait';
-}
-			}
-			else if ( data.message === 'generateAfter' ) {
-				if ( log ) {
-					localStorage.setItem('/docpad-livereload/reloaded', 'yes');
-				}
-				document.location.reload();
-			}
-		}
-	});
-};
-	/* Inject socket into our page */
-var inject = function(){
-	var t = document.createElement('script');
-	t.type = 'text/javascript';
-	t.async = 'async';
-	t.src = '/docpad-livereload/primus.js';
-	t.onload = listen;
-	var s = document.getElementsByTagName('script')[0];
-	s.parentNode.insertBefore(t, s);
-};
-	if ( typeof Primus !== 'undefined' ) {
-		listen();
-	} else {
-		inject();
-	}
-})();</script><script defer="defer"  src="/vendor/jquery-1.11.1.min.js"></script><script defer="defer"  src="/scripts/script.js"></script><script defer="defer"  src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script defer="defer"  src="/vendor/jquery-1.11.1.min.js"></script><script defer="defer"  src="/scripts/script.js"></script><script defer="defer"  src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <!-- show the chapters -->
 
     <div  class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -370,7 +321,7 @@ var inject = function(){
 <p>به: گروه خبری مینیکس comp.os.minix</p>
 <p>موضوع: دوست دارید در مینیکس چه چیزهایی ببینید؟</p>
 <p>خلاصه: رای‌گیریی کوتاه درباره سیستم‌عامل جدید من</p>
-<p>شناسه پیام: <a href="mailto:&#x31;&#x39;&#57;&#49;&#65;&#x75;&#x67;&#x32;&#x35;&#46;&#x32;&#x30;&#x35;&#55;&#48;&#x38;&#46;&#x39;&#53;&#x34;&#49;&#64;&#107;&#x6c;&#x61;&#x61;&#x76;&#97;&#46;&#x48;&#x65;&#x6c;&#115;&#105;&#x6e;&#107;&#105;&#46;&#70;&#x69;">&#x31;&#x39;&#57;&#49;&#65;&#x75;&#x67;&#x32;&#x35;&#46;&#x32;&#x30;&#x35;&#55;&#48;&#x38;&#46;&#x39;&#53;&#x34;&#49;&#64;&#107;&#x6c;&#x61;&#x61;&#x76;&#97;&#46;&#x48;&#x65;&#x6c;&#115;&#105;&#x6e;&#107;&#105;&#46;&#70;&#x69;</a></p>
+<p>شناسه پیام: <a href="mailto:&#49;&#57;&#57;&#x31;&#x41;&#117;&#103;&#50;&#53;&#x2e;&#50;&#x30;&#x35;&#55;&#48;&#x38;&#46;&#x39;&#x35;&#52;&#x31;&#64;&#x6b;&#x6c;&#97;&#x61;&#118;&#x61;&#x2e;&#72;&#101;&#108;&#x73;&#105;&#x6e;&#x6b;&#x69;&#46;&#x46;&#105;">&#49;&#57;&#57;&#x31;&#x41;&#117;&#103;&#50;&#53;&#x2e;&#50;&#x30;&#x35;&#55;&#48;&#x38;&#46;&#x39;&#x35;&#52;&#x31;&#64;&#x6b;&#x6c;&#97;&#x61;&#118;&#x61;&#x2e;&#72;&#101;&#108;&#x73;&#105;&#x6e;&#x6b;&#x69;&#46;&#x46;&#105;</a></p>
 <p>سلام به همه مینیکس کارها. من مشغول یک سیستم‌عامل (آزاد) هستم (فقط به عنوان یک سرگرمی. مثل گنو بزرگ و حرفه‌ای نخواهد شد). برای کامپیوترهای سازگار با ۳۸۶ (۴۸۶). این جریان از آوریل شروع شده و کم‌کم دارد آماده می‌شود. دنبال هر جوابی از شما هستم که بگوید چه چیزهایی را در مینیکس دوست دارید یا دوست ندارید چون سیستم‌عامل من هم تقریبا شبیه همان خواهد بود (لایه فیزیکی فایل سیستم مشابه است (به خاطر مسایل عملی) و همین طور چند چیز دیگر).</p>
 <p>تا الان، Bash (نسخه 1.08) و gcc (نسخه 1.40) و چیزهای دیگری را روی آن اجرا کرده‌ام. همین می‌رساند که در عرض چند ماه به یک چیز به دردبخور خواهم رسید و به همین دلیل دنبال قابلیت‌هایی هستم که شما علاقه‌مندید در آن باشد. هر پیشنهادی را استقبال می‌کنم ولی این به آن معنا نیست که آن را به سیستم اضافه خواهم کرد (:</p>
 <p>لینوس (<a href="mailto:torvalds@kruuna.helsinki.fi">torvalds@kruuna.helsinki.fi</a>)</p>

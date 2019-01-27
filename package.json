@@ -33,6 +33,7 @@
   "dependencies": {
     "docpad": "~6.80.0",
     "docpad-plugin-eco": "~2.3.0",
+    "docpad-plugin-ghpages": "~2.7.0",
     "docpad-plugin-marked": "~2.5.0",
     "docpad-plugin-partials": "~2.13.0"
   },
