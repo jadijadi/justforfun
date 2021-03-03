@@ -1,9 +1,8 @@
 
 <%- @partial('head') %> 
   
-  <div class="row"><div class="row-md-10 top-space-reserver" ></div><div>
+<div class="row-md-10 top-space-reserver" ></div>
   
-  <div class="row">
   
     <div class="row"><div class="col-md-12"><br><br></div></div>
      
