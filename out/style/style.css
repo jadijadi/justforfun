@@ -63,8 +63,7 @@ p {
 }
 
 .email {
-	margin-right: 48px;
-	margin-left: 48px;
+	margin: 0 48px;
 	border: 2px dashed;
     	padding: 12px;
 	background: #eee;
