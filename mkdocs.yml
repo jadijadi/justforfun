@@ -1,0 +1,62 @@
+site_name: فقط برای تفریح
+site_url: https://linuxstory.ir/
+site_description: داستان یک انقلابی اتفاقی
+site_author: Jadi
+
+repo_url: https://github.com/jadijadi/justforfun
+
+copyright: Copyright &copy; 2017 yoursite
+
+theme:
+  name: material
+  direction: rtl
+  language: fa
+  font:
+    text: Vazirmatn
+  features:
+    - navigation.expand
+
+nav:
+  - مقدمه: intro.md
+  - دریافت کتاب: download.md
+  - تولد یک نرد:
+    - nerd_bd_1.md
+    - nerd_bd_2.md
+    - nerd_bd_3.md
+    - nerd_bd_4.md
+    - nerd_bd_5.md
+    - nerd_bd_6.md
+    - nerd_bd_7.md
+  - تولد یک سیستم‌عامل:
+    - os_1.md
+    - os_2.md
+    - os_3.md
+    - os_4.md
+    - os_5.md
+    - os_6.md
+    - os_7.md
+    - os_8.md
+    - os_9.md
+    - os_10.md
+    - os_11.md
+    - os_12.md
+  - فرش قرمز:
+    - ball_1.md
+    - ball_2.md
+    - ball_3.md
+    - ball_4.md
+    - ball_5.md
+    - ball_6.md
+    - ball_7.md
+    - ball_8.md
+    - ball_9.md
+    - ball_10.md
+    - ball_11.md
+    - ball_12.md
+  - مقالات:
+    - road_ahead.md
+    - wealth.md
+    - why_opensource_is_important.md
+    - meaning_of_life_2.md
+    - end_of_control.md
+    - intelectual_property.md
