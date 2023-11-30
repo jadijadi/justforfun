@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><%- @site.title %><%- (@document.title && (' | ' + @document.title)) || '' %></title>
-  <%- @getBlock("styles").add(["//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css", "/style/bootstrap-rtl.css","http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css","/style/style.css"]).toHTML() %>
+  <%- @getBlock("styles").add(["//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css", "/style/bootstrap-rtl.css","https://fonts.googleapis.com/css?family=Vazirmatn","/style/style.css"]).toHTML() %>
 
   <% @getBlock("styles").add(["./style/bootstrap.css", "./style/bootstrap-rtl.css","./style/style.css"]).toHTML() %>
 
