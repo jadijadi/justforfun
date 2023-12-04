@@ -2,7 +2,7 @@ name: Publish docs via GitHub Pages
 on:
   push:
     branches:
-      - docpad-to-mkdocs
+      - master
 
 jobs:
   build:
