@@ -5,19 +5,26 @@ site_author: Jadi
 
 repo_url: https://github.com/jadijadi/justforfun
 
-copyright: Copyright &copy; 2017 yoursite
+copyright: ترجمه کتاب فقط برای تفریح کاری است از <a href="http://jadi.net">جادی</a> روی <a href="https://github.com/jadijadi/justforfun">گیت هاب</a>
 
 theme:
   name: material
   direction: rtl
   language: fa
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
   font:
     text: Vazirmatn
   features:
     - navigation.expand
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
+    - navigation.footer
 
 nav:
   - مقدمه: intro.md
+  - حمایت: support.md
   - دریافت کتاب: download.md
   - تولد یک نرد:
     - nerd_bd_1.md
