@@ -1,3 +1,5 @@
+srv.pid
+pelican.pid
 out/*
 ._.DS_Store
 .DS_Store

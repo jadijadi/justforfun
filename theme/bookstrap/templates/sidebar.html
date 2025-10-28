@@ -1,0 +1,61 @@
+<ul class="nav nav-list">
+
+    <li class="nav-header">
+      <h4><i class="icon-external-link"></i>معرفی</h4>
+    </li>
+    <li>
+      <ul>
+        <li>
+          <a href="{{ SITEURL }}/pages/about.html" >درباره</a>
+        </li>
+        <li>
+          <a href="{{ SITEURL }}/pages/downloads.html">دانلود</a>
+        </li>                
+        <li>
+          <a href="{{ SITEURL }}/pages/discuss.html">گفتگو</a>
+        </li>
+        <li>
+          <a href="{{ SITEURL }}/pages/support.html">حمایت</a>
+        </li>
+      </ul>
+    </li>
+    <li class="nav-header">
+      <h4><i class="icon-home icon-large"></i>لینک‌ها</h4>
+    </li>
+    <li>
+      <ul>
+        <li>
+          <a href="http://instagram.com/jadijadinet" target="_blank" rel="alternate"><i class="icon-bookmark icon-large"></i>اینستاگرام</a>
+        </li>
+        <li>
+          <a href="http://twitter.com/jadi" target="_blank" rel="alternate"><i class="icon-bookmark icon-large"></i>توییتر</a>
+        </li>
+        <li>
+          <a href="http://jadi.net" target="_blank" rel="alternate"><i class="icon-bookmark icon-large"></i>وبلاگ جادی.نت</a>
+        </li>
+      </ul>
+    </li>
+    <li class="nav-header">
+      <h4><i class="icon-folder-close icon-large"></i>فصل‌ها</h4>
+    </li>
+    <li>
+      <ul>
+        {% for article in articles %} 
+        <li>
+          <a href="{{ SITEURL }}/{{ article.url }}">
+              <i class="icon-folder-open icon-large"></i>{{ article.title }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+
+
+
+{% include 'twitter_profile.html' %}
+{% include 'search_sidebar.html' %}
+
+{% if SIDEBAR_CUSTOM %}
+    {{ SIDEBAR_CUSTOM }}
+{% endif %}
+</ul>

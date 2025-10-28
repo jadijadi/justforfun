@@ -1,0 +1,155 @@
+/*@import url(//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+*/
+@font-face {
+	font-family: 'Sahel';
+	src: url('../font/Sahel.eot');
+	src: url('../font/Sahel.eot?#iefix') format('embedded-opentype'), url('../font/Sahel.woff') format('woff'), url('../font/Sahel.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+ul {
+	margin-right: 28pt;
+	font-family: 'Sahel', "Droid Arabic Naskh";
+	font-size: 1.1em;
+	line-height: normal;
+}
+
+h1 {
+	margin-bottom: 32pt;
+}
+
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	font-family: 'Sahel', 'Droid Arabic Naskh', sans-serif !important;
+	
+}
+.sidebar-nav {
+	padding: 9px 0;
+}
+.tag-1 {
+	font-size: 1.2em;
+}
+.tag-2 {
+	font-size: 10p1emt;
+}
+.tag-2 {
+	font-size: 0.9em;
+}
+.tag-4 {
+	font-size: 0.8em;
+}
+
+p {
+	font-family: 'Sahel', "Droid Arabic Naskh";
+	font-size: 1.2em;
+	line-height: normal;
+}
+
+.container {
+	direction: rtl;
+}
+.navbar .brand, .navbar .nav, .navbar .nav li {
+	float: right;
+}
+@media (min-width:767px) {
+	.container {
+		width: 1200px !important;
+	}
+}
+
+pre {
+	font-size: 1.4em;
+}
+
+address {
+	text-align: center;
+	line-height: 14px;
+	margin-bottom: 6px;
+}
+
+article img, section img
+{
+	margin: 0.7rem auto;
+	display: block;
+	max-width: 100%;
+}
+
+article img.full, section img.full
+{
+	margin: 0.7rem auto;
+	width: 100%;
+}
+
+article iframe, section iframe
+{
+	margin: 1rem auto;
+	display: block;
+}
+
+article h2, article h3, article h4, article h5, article h6
+{
+	margin-top: 2rem;
+	margin-bottom: 0.6rem;
+}
+
+.attentionBox
+{
+	padding: 0.4rem;
+	border-radius: 5px;
+	margin: 33px;
+	border: 1px;
+	background: #f7f7de;
+	border: solid;
+	border-width: 1pt;
+	border-spacing: 10pt;
+}
+
+footer address
+{
+	line-height: 1.5rem;
+}
+
+#sidebar .nav-list
+{
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-right: 0rem;
+	padding-left: 0px;
+
+}
+.nav-list>li>a, .nav-list .nav-header
+{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#sidebar .nav-list li a
+{
+	display: block;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-decoration: none;
+	padding-right: 1.5rem;
+	padding-left: 0.5rem;
+	background-color: #f5f5f5;
+  -webkit-transition:0.3s ease all;
+     -moz-transition:0.3s ease all;
+      -ms-transition:0.3s ease all;
+       -o-transition:0.3s ease all;
+          transition:0.3s ease all;
+}
+#sidebar .nav-list li a:hover
+{
+	background-color:  #e0e0e0;
+}
+
+#sidebar .nav-list li ul
+{
+	padding-right: 0rem;
+	margin-left: 0px;
+	list-style-type: none;
+	margin-right: 0px;
+}
+
+
