@@ -1,9 +1,5 @@
 Title: معنای زندگی ۲
 date: 2017-06-09
-Chapter: مقالات
-Order: 5.6
-Category: Chapters
-
 Slug: meaning_of_life_2
 
 

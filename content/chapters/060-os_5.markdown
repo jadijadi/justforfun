@@ -1,9 +1,5 @@
 Title: تولد یک سیستم‌عامل، بخش پنجم
 date: 2017-06-09
-Chapter: تولد یک سیستم‌عامل
-Order: 3.5
-Category: Chapters
-
 Slug: os_5
 
 

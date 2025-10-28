@@ -1,7 +1,4 @@
 Title: فرش قرمز، بخش نهم
-Chapter: فرش قرمز
-Order: 4.9
-Category: Chapters
 date: 2017-06-09
 Slug: ball_9
 

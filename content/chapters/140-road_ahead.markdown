@@ -1,9 +1,5 @@
 Title: راه جذاب پیش رو
 date: 2017-06-09
-Chapter: مقالات
-Order: 5.3
-Category: Chapters
-
 Slug: road_ahead
 
 

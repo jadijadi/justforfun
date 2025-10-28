@@ -1,7 +1,4 @@
 Title: پایانی بر کنترل
-Chapter: مقالات
-Order: 5.2
-Category: Chapters
 date: 2017-06-09
 Slug: end_of_control
 

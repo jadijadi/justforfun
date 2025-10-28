@@ -1,9 +1,5 @@
 Title: شهرت و ثروت
 date: 2017-06-09
-Chapter: مقالات
-Order: 5.5
-Category: Chapters
-
 Slug: wealth
 
 

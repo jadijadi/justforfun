@@ -1,9 +1,5 @@
 Title: تولد یک نرد، بخش هفتم
 date: 2017-06-09
-Chapter: تولد یک نرد
-Order: 2.7
-Category: Chapters
-
 Slug: nerd_bd_7
 
 

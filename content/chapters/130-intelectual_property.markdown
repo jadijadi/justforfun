@@ -1,7 +1,4 @@
 Title: دارایی معنوی
-Chapter: مقالات
-Order: 5.1
-Category: Chapters
 date: 2017-06-09
 Slug: intelectual_property
 

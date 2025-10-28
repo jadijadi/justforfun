@@ -1,7 +1,4 @@
 Title: فرش قرمز، بخش هشتم
-Chapter: فرش قرمز
-Order: 4.8
-Category: Chapters
 date: 2017-06-09
 Slug: ball_8
 

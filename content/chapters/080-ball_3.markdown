@@ -1,9 +1,5 @@
 Title: فرش قرمز، بخش سوم
 date: 2017-06-09
-Chapter: فرش قرمز
-Order: 4.3
-Category: Chapters
-
 Slug: ball_3
 
 

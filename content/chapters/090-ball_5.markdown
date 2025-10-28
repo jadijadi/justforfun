@@ -1,9 +1,5 @@
 Title: فرش قرمز، بخش پنجم
 date: 2017-06-09
-Chapter: فرش قرمز
-Order: 4.5
-Category: Chapters
-
 Slug: ball_5
 
 

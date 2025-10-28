@@ -1,9 +1,5 @@
 Title: فرش قرمز، بخش دوازدهم
 date: 2017-06-09
-Chapter: فرش قرمز
-Order: 4.93
-Category: Chapters
-
 Slug: ball_12
 
 

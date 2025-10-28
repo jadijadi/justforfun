@@ -1,9 +1,5 @@
 Title: چرا متن‌باز مهم است
 date: 2017-06-09
-Chapter: مقالات
-Order: 5.4
-Category: Chapters
-
 Slug: why_opensource_is_important
 
 

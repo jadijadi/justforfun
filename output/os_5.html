@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>تولد یک سیستم‌عامل، بخش پنجم</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="جادی">
+
+    <!-- Le styles -->
+    <link rel="stylesheet" href="./theme/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css" />
+    <!--link rel="stylesheet" href="./theme/css/bootstrap-rtl.css" type="text/css" /-->
+    <link href="./theme/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="./theme/css/font-awesome.css" rel="stylesheet">
+
+    <link href="./theme/css/pygments.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="./theme/images/favicon.ico">
+    <link rel="apple-touch-icon" href="./theme/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./theme/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./theme/images/apple-touch-icon-114x114.png">
+
+    <link href="./" type="application/atom+xml" rel="alternate" title="راهنمای دوچرخه جادی ATOM Feed" />
+
+  </head>
+
+  <body>
+
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="./index.html">راهنمای دوچرخه جادی </a>
+          <div class="nav-collapse">
+            <ul class="nav">
+                <li><a href="./pages/about.html">درباره</a></li>
+                <li><a href="./pages/download.html">دانلود</a></li>                
+                <li><a href="./pages/discuss.html">گفتگو</a></li>
+                <li><a href="./pages/support.html">حمایت</a></li>
+                
+                          <!--ul class="nav pull-right">
+                                <li><a href="./archives.html"><i class="icon-th-list"></i>Archives</a></li>
+                          </ul-->
+
+            </ul>
+            <!--<p class="navbar-text pull-right">Logged in as <a href="#">username</a></p>-->
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="span9">
+          <div class="attentionBox">
+            <img src="./images/bike_multitool.png" align=left width="100px">
+            <b>توجه</b>
+            این کتاب در حال نوشته شدن است. فصل‌ها کاملتر خواهد شد. شما در حال دیدن آن هستید چون نیازی نیست چیزی برای دیده شدن منتظر کامل
+            شدن بماند. چیزها همیشه در حال تکمیل شدن هستند، در این مورد هم همینطور است با این اختلاف که عملا تازه شروع به ساخته شدن
+            کرده؛ ولی دلیلی ندارد همین حالا هم به درد کسی نخورد. انتظار می‌رود در طول یک ماه آینده، همه فصل‌های اصلی نوشته شوند.
+            <br>
+            <br> اگر نکته‌ای برای شما سوال است یا انتظار دارید در این کتاب جواب داده شود، از منو به بخش گفتگو بروید و آن را مطرح کنید
+          </div>    
+
+
+<section id="content">
+        <article>
+                <header>
+                        <h1>
+                                <a href=""
+                                        rel="bookmark"
+                                        title="Permalink to تولد یک سیستم‌عامل، بخش پنجم">
+                                        تولد یک سیستم‌عامل، بخش پنجم
+                                </a>
+                        </h1>
+                </header>
+                <div class="entry-content">
+                <!--div class="well">
+<footer class="post-info">
+<span class="label">Date</span>
+<abbr class="published" title="2017-06-09T00:00:00+04:30">
+        <i class="icon-calendar"></i>Fri 09 June 2017
+</abbr>
+<span class="label">By</span>
+<a href="./author/jdy.html"><i class="icon-user"></i>جادی</a>
+<span class="label">Category</span>
+<a href="./category/chapters.html"><i class="icon-folder-open"></i>chapters</a>.
+
+
+</footer><!-- /.post-info -->                </div-->
+                <h3>زیبایی برنامه‌نویسی</h3>
+<p>درست نمی‌دانم چطور باید شیفتگی‌ام به برنامه‌‌نویسی را بیان کنم، ولی به هرحال تلاشم را خواهم کرد. برای کسی که برنامه‌نویسی می‌کند، این کار جذاب‌ترین چیز در دنیاست. بازی‌ای بسیار درگیر کننده‌تر از شطرنج، بازی‌ای که در آن شما قوانین را می‌سازید و بازی‌ای که نتایج چیزهایی هستند که شما تعریفشان کرده‌اید.</p>
+<p>البته هنوز هم برای افرادی که از بیرون به قضیه نگاه می‌کنند، برنامه‌نویسی حوصله‌سربرترین فعالیت دنیاست.</p>
+<p>بخشی از هیجان اولیه موجود در برنامه‌نویسی را می‌توان به راحتی توضیح داد: این واقعیت که هر دستوری که به کامپیوتر بدهید، با دقت تمام آن را اجرا خواهد کرد. بدون کوچک‌ترین اشتباهی. تا ابد. بدون هیچ شکایتی.</p>
+<p>این ماجرا به خودی خود جذاب است.</p>
+<p>اما اطاعت بی‌چون‌وچرا، هرچند جذاب است، مشخصه یک دوست خوب نیست. در حقیقت همین مساله باعث می‌شود که کامپیوتر خیلی زود حوصله‌سر‌بر شود. چیزی که باعث می‌شود مردم با این شدت جذب کامپیوتر شوند این است که برای حل یک مشکل، علاوه بر دادن دستور به کامپیوتر، لازم است کشف کنید که چگونه باید این دستور را بدهید.</p>
+<p>من شخصا متقاعد شده‌ام که علوم کامپیوتر اشتراکات بسیاری با فیزیک دارد. هر دوی آن‌ها در این مورد بحث می‌کنند که جهان در سطح بنیادینش چگونه کار می‌کند. مطمئنا تفاوت هم در این است که در فیزیک بحث بر سر کشف چگونگی کارکرد جهان است و در علوم کامپیوتر، بحث بر سر ساخت این جهان. در حوزه کامپیوتر، شما خالق جهان هستید. شما باید هر چیزی که پیش می‌آید را کنترل کنید. اگر این کار را خوب انجام دهید، خدای کامپیوتر خواهید بود. البته در مقیاسی کوچک.</p>
+<p>و البته احتمالا با گفتن این حرف، نیمی از جمعیت جهان را ناراحت کرده‌ام.</p>
+<p>اما این واقعیت دارد. شما باید دنیای خود را بسازید و تنها چیزی که در این خلقت شما را محدود می‌کند، توانایی‌های ماشین و این روزها بیشتر و بیشتر، توانایی‌های خودتان است.</p>
+<hr>
+<p>به یک خانه درختی فکر کنید. می‌توانید روی یک درخت خانه‌ای بسازید که کار کند، یک ورودی داشته باشد و مستحکم هم باشد ولی هر کسی فرق یک خانه مستحکم و یک خانه درختی زیبا که از شکل و خواص درخت استفاده‌ای خلاقانه کرده را می‌داند. این کار،‌ ترکیب هنر و مهندسی‌ است. این همان دلیلی است که برنامه‌نویسی، فریبنده و فوق‌العاده می‌شود. کارایی، گاهی بعد از جذاب بودن،‌ زیبا بودن یا شوکه کننده بودن قرار می‌گیرد.</p>
+<p>برنامه‌نویسی، تمرین خلاقیت است.</p>
+<p>چیزی که اولین بار مرا به دنیای کامپیوتر کشاند، کشف این روند بود که کامپیوترها چگونه کار می‌کنند. یکی از لذت‌های من وقتی بود که کشف کردم کامپیوتر مثل ریاضی است: جهان را باید خودتان و با قوانین خودتان بسازید. در فیزیک، شما با قوانین موجود درگیر هستید ولی در ریاضیات -مثل برنامه‌نویسی- تا وقتی که قوانینی که وضع کرده‌اید با یکدیگر سازگار باشند، می‌توانید راه را ادامه دهید. لزومی ندارد ساختارهای ریاضی با هیچ منطق بیرونی سازگار باشند؛ ولی چیزی که هیچ‌گاه نمی‌توان از آن عدول کرد، سازگاری درونی قوانین با یکدیگر است. همان طور که هر ریاضی‌دانی به شما خواهد گفت، می‌توانید ساختارهای ریاضی‌ای بسازید که در آن، سه به علاوه سه برابر دو بشود. می‌توانید هر کاری که دوست دارید انجام دهید. ولی باید توجه کنید که در حین اضافه شدن پیچیدگی ساختار، اجزای ساختار کماکان با یکدیگر و با جهانی که شما خلق کرده‌اید، سازگار باقی بمانند. اگر قرار است این دنیا زیبا باشد، نباید هیچ کاستی‌ای در آن راه بیابد. این دقیقا شیوه کار در جهان برنامه‌نویسی هم هست.</p>
+<p>یکی از دلایلی که مردم را تا به این حد شیفته کامپیوتر می‌کند، این است که آن‌ها می‌توانند با توسل به کامپیوتر دنیاهای جدیدی بسازند و در آن‌ها دست به تجربه بزنند و بیاموزند که چه چیزهایی ممکن است. در ریاضی می‌شود به سراغ تمرین‌های فکری رفت و درباره ممکن‌ها سخن گفت؛ مثلا وقتی صحبت از هندسه می‌شود،‌ اکثر مردم به هندسه اقلیدسی فکر می‌کنند. کامپیوتر به مردم کمک کرده است که بتوانند هندسه‌‌های مختلف را به نمایش بکشند؛ هندسه‌هایی که به هیچ وجه اقلیدسی نیستند. با استفاده از کامپیوتر می‌توانیم این دنیاهای جدید را مشاهده کنیم و ببینیم که چطور کار می‌کنند. مجموعه <abbr title="Mandelberot">مندلبرت</abbr > را به یاد دارید؟ تصاویر فراکتالی که بر اساس معادلات مندلبرت ایجاد شده بودند؟ این‌ها تصاویری بودند که بر اساس دنیایی کاملا ریاضی ساخته شده بودند که پیش از کامپیوترها به هیچ عنوان امکان ظهور نداشتند. مندلبرت این قواعد قراردادی را درباره جهان جدیدی نوشته که پیش از این وجود نداشت و با واقعیت بیرونی هم ارتباطی نداشت. کامپیوترها کمک کردند کشف کنیم که این قوانین، تصاویر زیبایی هم خلق می‌کنند. با کامپیوتر و برنامه‌نویسی، می‌توان جهان‌های جدیدی ساخت و گاهی این جهان‌ها و الگوها، واقعا زیبا هستند.</p>
+<p>البته در بیشتر مواقع،‌ کار ما این نیست. ما معمولا فقط برنامه‌هایی می‌نویسیم که قرار است مشکل خاصی را حل کنند. در این حالت، شما جهان جدیدی نمی‌سازید بلکه مشکلی در درون جهان کامپیوتر را حل می‌کنید. مشکل، از طریق اندیشیدن به آن حل می‌شود. فقط هم عده معدودی هستند که می‌توانند ساعت‌ها جلوی یک صفحه نورانی بنشینند و به یک مشکل فکر کنند. فقط خوره‌ها و گیک‌هایی مثل من.</p>
+<p>سیستم‌عامل پایه هر چیز دیگری است که در ماشین اتفاق می‌افتد و ساخت یک سیستم‌عامل، چالشی واقعی است. وقتی سیستم‌عاملی می‌نویسید، در حال ساختن جهانی هستید که تمام برنامه‌های دیگر در درون آن زندگی خواهند کرد. در حقیقت شما دارید قوانینی را می‌نویسید که بنا بر آن‌ها برنامه‌ها خواهند دانست درون این دنیا، چه چیزی مجاز و چه چیزی غیرمجاز است. البته هر برنامه‌ای همین کار را انجام می‌دهد؛ ولی سیستم‌عامل، پایه‌ای‌ترین سطح این برنامه‌ها است. مثل نوشتن قانون اساسی سرزمینی جدید. تمام برنامه‌های دیگر، قوانین معمولی این سرزمین خواهند بود.</p>
+<p>بعضی وقت‌ها قوانین چیزهای با معنایی نیستند و ما به دنبال معنا هستیم. ما دوست داریم بتوانیم به راه‌حل نگاه کنیم و احساس کنیم که جواب صحیح را با شیوه صحیح به دست آورده‌ایم.</p>
+<p>شاگرد مثبت کلاس را به یاد دارید که در مدرسه همیشه جواب‌های صحیح را داشت؟ او زودتر از هر کس دیگری مساله را حل می‌کرد و نکته این بود که تلاشی هم برای زودتر حل کردن به کار نمی‌برد. او هیچ‌وقت سعی نمی‌کرد یاد بگیرد که هر مساله را چطور باید حل کرد بلکه فقط به شیوه صحیح به مشکل نگاه می‌کرد. وقتی که راه‌حل او را می‌شنیدید، احساس می‌کردید راه‌حل او بامعناترین راه‌حل برای این مساله است.</p>
+<p>در کامپیوترها هم مساله به همین صورت است. می‌توانید با آزمایش کلیه جواب‌های ممکن، جواب را پیدا کنید؛ ولی این راه احمقانه است. در عوض سعی کنید مساله را آن قدر خرد کنید که اصولا دیگر مساله‌ای باقی نماند و ناگهان احساس کنید که مساله خودبه‌خود حل شده است. به شیوه دیگری به مساله نگاه کنید و ناگهان به روشنی خواهید رسید: مشکل اصولا به این دلیل وجود داشت که شما از زاویه اشتباهی به مساله می‌نگریستید.</p>
+<p>احتمالا بهترین مثال در این مورد نه در دنیای کامپیوتر که از دنیای ریاضی است. داستان مربوط می‌شود به ریاضی‌دان مشهور، کارل فردریش گاوس و معلمی که حوصله تدریس نداشت و از دانش‌آموزان خواست تا اعداد ۱ تا ۱۰۰ را با یکدیگر جمع کنند و جواب را بگویند. معلم انتظار داشت که این کار حدود یک روز از آن‌ها وقت بگیرد. ولی ریاضی‌دان نابغه آینده، در عرض پنج دقیقه جواب صحیح را اعلام کرد: ۵۰۵۰. شیوه حل مساله به هیچ وجه جمع کردن یکی‌یکی اعداد از یک تا صد نبود. این روش حوصله‌سربر و احمقانه است. چیزی که گاوس کشف کرد این بود که جمع ۱ و ۱۰۰ می‌شود ۱۰۱. همین‌طور جمع ۲ و ۹۹ می‌شود ۱۰۱. به همین ترتیب ۳ و ۹۸ هم ۱۰۱ است و الی آخر. در نهایت ۵۰ و ۵۱ هم حاصل ۱۰۱ را ایجاد خواهند کرد و در عرض چند لحظه می‌توان به این نتیجه رسید که ما ۵۰ بار نتیجه ۱۰۱ را داریم و جواب نهایی، ۵۰۵۰ است.</p>
+<p>احتمال دارد که این داستان ساختگی باشد؛ ولی پیامش روشن است: ریاضی‌دان واقعی،‌ مساله را از راه طولانی و حوصله‌سربر حل نمی‌کند چون می‌تواند الگوی پنهان شده در پشت مشکل را ببیند و از این الگو برای حل زیباتر سوال استفاده کند. مساله در علوم کامپیوتر هم مشابه است. مطمئنا می‌شود برنامه‌ای نوشت که با جمع زدن ۱ تا ۱۰۰، مساله بالا را حل کند. این برنامه برای کامپیوترهای امروزی یک چشم به هم زدن است اما برنامه‌نویس باهوش است و جواب را از اول می‌داند. این آدم، برنامه‌ای می‌نویسد که به شیوه‌ای جدید و زیبا به مساله حمله کند و در نهایت مشخص خواهد شد که راه‌حل او، راه‌حل بهتری است.</p>
+<p>هنوز مشکل است توضیح بدهم که چه چیز جذابی در این وجود دارد که برای چند روز سر خود را به دیوار بکوبید و سعی کنید کشف کنید که یک مساله چطور باید به شیوه‌ای زیبا حل شود. ولی وقتی راه‌حل زیبایتان را پیدا کنید، بهترین احساس جهان را خواهید داشت.</p>
+                </div><!-- /.entry-content -->
+        </article>
+	<hr />
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-bikezen-ir.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+        <hr />
+        <p><center >
+                <a href="./pages/support">از ترجمه و چاپ نه فقط فصل‌های بعدی، که کتاب‌های بعدی حمایت کنید</a>
+        </center></p>
+
+</section>
+        </div><!--/span-->
+
+        <div class="span3 well sidebar-nav" id="sidebar">
+<ul class="nav nav-list">
+
+    <li class="nav-header">
+      <h4><i class="icon-external-link"></i>معرفی</h4>
+    </li>
+    <li>
+      <ul>
+        <li>
+          <a href="./pages/about.html" >درباره</a>
+        </li>
+        <li>
+          <a href="./pages/download.html">دانلود</a>
+        </li>                
+        <li>
+          <a href="./pages/discuss.html">گفتگو</a>
+        </li>
+        <li>
+          <a href="./pages/support.html">حمایت</a>
+        </li>
+      </ul>
+    </li>
+    <li class="nav-header">
+      <h4><i class="icon-home icon-large"></i>لینک‌ها</h4>
+    </li>
+    <li>
+      <ul>
+        <li>
+          <a href="http://instagram.com/jadijadinet" target="_blank" rel="alternate"><i class="icon-bookmark icon-large"></i>اینستاگرام</a>
+        </li>
+        <li>
+          <a href="http://twitter.com/jadi" target="_blank" rel="alternate"><i class="icon-bookmark icon-large"></i>توییتر</a>
+        </li>
+        <li>
+          <a href="http://jadi.net" target="_blank" rel="alternate"><i class="icon-bookmark icon-large"></i>وبلاگ جادی.نت</a>
+        </li>
+      </ul>
+    </li>
+    <li class="nav-header">
+      <h4><i class="icon-folder-close icon-large"></i>فصل‌ها</h4>
+    </li>
+    <li>
+      <ul>
+ 
+        <li>
+          <a href="./intro.html">
+              <i class="icon-folder-open icon-large"></i>مقدمه
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./nerd_bd_1.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک نرد، بخش اول
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./nerd_bd_2.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک نرد، بخش دوم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./nerd_bd_3.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک نرد، بخش سوم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./nerd_bd_4.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک نرد، بخش چهارم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./nerd_bd_5.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک نرد، بخش پنجم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./nerd_bd_6.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک نرد، بخش ششم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./nerd_bd_7.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک نرد، بخش هفتم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./os_1.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک سیستم‌عامل، بخش یکم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./os_2.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک سیستم‌عامل، بخش دوم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./os_3.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک سیستم‌عامل، بخش سوم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./os_4.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک سیستم‌عامل، بخش چهارم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./os_5.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک سیستم‌عامل، بخش پنجم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./os_6.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک سیستم‌عامل، بخش ششم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./os_7.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک سیستم‌عامل، بخش هفتم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./os_8.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک سیستم‌عامل، بخش هشتم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./os_9.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک سیستم‌عامل، بخش نهم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./os_10.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک سیستم‌عامل، بخش دهم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./os_11.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک سیستم‌عامل، بخش یازدهم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./os_12.html">
+              <i class="icon-folder-open icon-large"></i>تولد یک سیستم‌عامل، بخش دوازدهم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./ball-1.html">
+              <i class="icon-folder-open icon-large"></i>فرض قرمز، بخش یکم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./ball_2.html">
+              <i class="icon-folder-open icon-large"></i>فرش قرمز، بخش دوم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./ball_3.html">
+              <i class="icon-folder-open icon-large"></i>فرش قرمز، بخش سوم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./ball_4.html">
+              <i class="icon-folder-open icon-large"></i>فرش قرمز، بخش چهارم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./ball_5.html">
+              <i class="icon-folder-open icon-large"></i>فرش قرمز، بخش پنجم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./ball_6.html">
+              <i class="icon-folder-open icon-large"></i>فرش قرمز، بخش ششم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./ball_7.html">
+              <i class="icon-folder-open icon-large"></i>فرش قرمز، بخش هفتم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./ball_8.html">
+              <i class="icon-folder-open icon-large"></i>فرش قرمز، بخش هشتم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./ball_9.html">
+              <i class="icon-folder-open icon-large"></i>فرش قرمز، بخش نهم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./ball_10.html">
+              <i class="icon-folder-open icon-large"></i>فرش قرمز، بخش دهم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./ball_11.html">
+              <i class="icon-folder-open icon-large"></i>فرش قرمز، بخش یازدهم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./ball_12.html">
+              <i class="icon-folder-open icon-large"></i>فرش قرمز، بخش دوازدهم
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./intelectual_property.html">
+              <i class="icon-folder-open icon-large"></i>دارایی معنوی
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./end_of_control.html">
+              <i class="icon-folder-open icon-large"></i>پایانی بر کنترل
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./road_ahead.html">
+              <i class="icon-folder-open icon-large"></i>راه جذاب پیش رو
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./why_opensource_is_important.html">
+              <i class="icon-folder-open icon-large"></i>چرا متن‌باز مهم است
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./wealth.html">
+              <i class="icon-folder-open icon-large"></i>شهرت و ثروت
+          </a>
+        </li>
+ 
+        <li>
+          <a href="./meaning_of_life_2.html">
+              <i class="icon-folder-open icon-large"></i>معنای زندگی ۲
+          </a>
+        </li>
+      </ul>
+    </li>
+
+
+
+
+</ul>        </div><!--/.well -->
+
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <address id="about">
+                ساخته شده با <a href="http://pelican.notmyidea.org/">Pelican <i class="icon-external-link"></i></a>،
+                                که خود از <a href="http://python.org">Python <i class="icon-external-link"></i></a> قدرت می‌گیرد.
+        </address><!-- /#about -->
+
+        <address class="description">این کتاب توسط <a href="http://jadi.net">جادی <i class="icon-external-link"></i></a> منتشر شده و
+             هر شکلی از تکثیر مجدد آن، با ذکر نام و لینک اصلی مجاز است؛ شاد باشید!
+             <br />
+             به اصلاحی نیاز هست؟ می‌خواهید مشارکت کنید؟ پروژه روی
+              <a href="https://github.com/jadijadi/bikezenbook">گیت‌هاب</a> 
+               است.
+        </address>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+
+
+    <!-- Le javascript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./theme/js/jquery-1.7.2.min.js"></script>
+    <script src="./theme/js/bootstrap.min.js"></script>
+  </body>
+</html>

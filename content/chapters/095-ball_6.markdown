@@ -1,9 +1,5 @@
 Title: فرش قرمز، بخش ششم
 date: 2017-06-09
-Chapter: فرش قرمز
-Order: 4.6
-Category: Chapters
-
 Slug: ball_6
 
 

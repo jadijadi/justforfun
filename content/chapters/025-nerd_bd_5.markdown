@@ -1,9 +1,5 @@
 Title: تولد یک نرد، بخش پنجم
 date: 2017-06-09
-Chapter: تولد یک نرد
-Order: 2.5
-Category: Chapters
-
 Slug: nerd_bd_5
 
 
