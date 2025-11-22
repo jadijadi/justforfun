@@ -1,4 +1,5 @@
 srv.pid
+venv
 pelican.pid
 out/*
 ._.DS_Store
