@@ -1,9 +1,8 @@
 srv.pid
+output
 venv
 pelican.pid
 out/*
 ._.DS_Store
 .DS_Store
 *~
-node_modules/
-notes.txt
