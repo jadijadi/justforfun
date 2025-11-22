@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 AUTHOR = 'جادی'
 SITENAME = 'کتاب فقط برای تفریح؛ تاریخچه توسعه لینوکس'
@@ -40,8 +41,16 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 ARTICLE_ORDER_BY = 'filename'
 
-STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, }
+STATIC_PATHS = ['images', 'extra']
+
+# Automatically copy all files from extra/ to root
+EXTRA_PATH_METADATA = {}
+extra_dir = os.path.join(PATH, 'extra')
+if os.path.exists(extra_dir):
+    for filename in os.listdir(extra_dir):
+        filepath = os.path.join(extra_dir, filename)
+        if os.path.isfile(filepath):
+            EXTRA_PATH_METADATA[f'extra/{filename}'] = {'path': filename}
 
 MARKDOWN = {
     'extension_configs': {
