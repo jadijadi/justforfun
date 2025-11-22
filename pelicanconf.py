@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'جادی'
-SITENAME = 'راهنمای دوچرخه جادی'
+SITENAME = 'کتاب فقط برای تفریح؛ تاریخچه توسعه لینوکس'
 SITEURL = ''
 
 PATH = 'content'
@@ -49,8 +49,10 @@ MARKDOWN = {
             'css_class': 'highlight',
         },
         'markdown.extensions.extra': {},
+        'markdown.extensions.md_in_html': {},  # Enable markdown processing inside HTML blocks
         # optionally, more extensions,
         # e.g. markdown.extensions.meta
     },
     'output_format': 'html5',
+    'safe_mode': False,  # Allow raw HTML in markdown
 }

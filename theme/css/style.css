@@ -15,6 +15,11 @@ ul {
 	line-height: normal;
 }
 
+.inside {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
 h1 {
 	margin-bottom: 32pt;
 }
