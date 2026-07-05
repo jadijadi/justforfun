@@ -5,7 +5,7 @@
         <article>
                 <header>
                         <h1>
-                                <a href="{{ pagename }}"
+                                <a href="{{ SITEURL }}/{{ article.url }}"
                                         rel="bookmark"
                                         title="Permalink to {{ article.title|striptags }}">
                                         {{ article.title}}
@@ -50,7 +50,7 @@
     */
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
-    s.src = 'https://https-bikezen-ir.disqus.com/embed.js';
+    s.src = 'https://bikezen.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
     })();
@@ -59,7 +59,7 @@
 
         <hr />
         <p><center >
-                <a href="{{ SITEURL }}/pages/support">از ترجمه و چاپ نه فقط فصل‌های بعدی، که کتاب‌های بعدی حمایت کنید</a>
+                <a href="{{ SITEURL }}/pages/support.html">از ترجمه و چاپ نه فقط فصل‌های بعدی، که کتاب‌های بعدی حمایت کنید</a>
         </center></p>
 
 </section>
